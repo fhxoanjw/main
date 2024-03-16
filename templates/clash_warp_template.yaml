@@ -36,6 +36,9 @@ proxies:
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     udp: true
     remote-dns-resolve: true  
+    ip-version: ipv6-prefer
+    reserved: [78, 135, 76] 
+    dns: [ tls://1.1.1.0, tls://8.8.4.4,https://dns64.dns.google/dns-query ]
     dialer-proxy: "WARP前置节点"
 
 proxy-groups:
