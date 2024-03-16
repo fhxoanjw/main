@@ -35,8 +35,6 @@ proxies:
     private-key: KGkGsFZuxbwCf0n0kgjbNmBN19uU4xlPvyW9DGWN63Q=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     udp: true
-    ip-version: ipv6-prefer
-    reserved: [78, 135, 76]
     remote-dns-resolve: true  
     dialer-proxy: "WARP前置节点"
 
