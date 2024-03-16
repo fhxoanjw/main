@@ -5,20 +5,18 @@ log-level: info
 unified-delay: true
 global-client-fingerprint: chrome
 dns:
+  geoip: cn
+    - https://dns.alidns.com/dns-query
+    - https://doh.pub/dns-query
   enable: true
   listen: :53
   ipv6: true
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
-  default-nameserver: 
-    - 223.5.5.5
-    - 8.8.8.8
   nameserver:
-    - https://dns.alidns.com/dns-query
-    - https://doh.pub/dns-query
-  fallback:
-    - https://1.0.0.1/dns-query
-    - tls://dns.google
+    - tls://1.1.1.0
+    - tls://8.8.4.4
+    - https://dns64.dns.google/dns-query
   fallback-filter:
     geoip: true
     geoip-code: CN
@@ -38,7 +36,6 @@ proxies:
     remote-dns-resolve: true  
     ip-version: ipv6-prefer
     reserved: [78, 135, 76] 
-    dns: [ tls://1.1.1.0, tls://8.8.4.4,https://dns64.dns.google/dns-query ]
     dialer-proxy: "WARP前置节点"
 
 proxy-groups:
