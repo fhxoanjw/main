@@ -28,11 +28,11 @@ proxies:
 
   - name: WARP
     type: wireguard
-    server: 188.114.97.7
+    server: 2606:4700:d0::dcec:5e70:cfd2:abdb
     port: 987
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8a36:df92:102a:9602:fa18
-    private-key: YFYOAdbw1bKTHlNNi+aEjBM3BO7unuFC5rOkMRAz9XY=
+    ipv6: 2606:4700:110:83b0:ee64:3d3c:f1d7:53e5
+    private-key: KGkGsFZuxbwCf0n0kgjbNmBN19uU4xlPvyW9DGWN63Q=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     udp: true
     ip-version: ipv6-prefer
