@@ -35,7 +35,6 @@ proxies:
     udp: true
     remote-dns-resolve: true  
     ip-version: ipv6-prefer
-    reserved: [78, 135, 76] 
     dialer-proxy: "WARP前置节点"
 
 proxy-groups:
@@ -81,6 +80,61 @@ proxy-groups:
 rules:
   - DOMAIN,clash.razord.top,DIRECT
   - DOMAIN,yacd.haishan.me,DIRECT
+  - RULE-SET,放行规则-lhie1(建议置顶并直连),DIRECT
+  - RULE-SET,国内IP白名单(By lhie1),DIRECT
+  - RULE-SET,放行规则-ACL4SSR(建议置顶并直连),DIRECT
+  - RULE-SET,放行规则-ConnersHua(建议置顶并直连),DIRECT
+  - GEOSITE,PRIVATE,DIRECT
   - GEOIP,LAN,DIRECT
   - GEOIP,CN,DIRECT
+  - DOMAIN-SUFFIX,oracle.com,DIRECT
+  - DOMAIN-SUFFIX,steampowered.com,DIRECT
+  - PROCESS-NAME,cfst,DIRECT,no-resolve
+  - RULE-SET,国外常用网站合集,节点选择
+  - RULE-SET,国外流媒体合集,节点选择
+  - RULE-SET,国外常用网站合集(By lhie1),节点选择
   - MATCH,节点选择
+  rule-providers:
+  放行规则-lhie1(建议置顶并直连):
+    type: http
+    behavior: classical
+    path: "/etc/openclash/rule_provider/Special.yaml"
+    url: https://raw.githubusercontent.com/dler-io/Rules/master/Clash/Provider/Special.yaml
+    interval: 86400
+  国内IP白名单(By lhie1):
+    type: http
+    behavior: ipcidr
+    path: "/etc/openclash/rule_provider/Domestic IPs.yaml"
+    url: https://raw.githubusercontent.com/dler-io/Rules/master/Clash/Provider/Domestic
+      IPs.yaml
+    interval: 86400
+  放行规则-ACL4SSR(建议置顶并直连):
+    type: http
+    behavior: classical
+    path: "/etc/openclash/rule_provider/UnBan.yaml"
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/UnBan.yaml
+    interval: 86400
+  放行规则-ConnersHua(建议置顶并直连):
+    type: http
+    behavior: classical
+    path: "/etc/openclash/rule_provider/Unbreak.yaml"
+    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Unbreak.yaml
+    interval: 86400
+  国外常用网站合集:
+    type: http
+    behavior: classical
+    path: "/etc/openclash/rule_provider/Global.yaml"
+    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Global.yaml
+    interval: 86400
+  国外流媒体合集:
+    type: http
+    behavior: classical
+    path: "/etc/openclash/rule_provider/Streaming.yaml"
+    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/Streaming.yaml
+    interval: 86400
+  国外常用网站合集(By lhie1):
+    type: http
+    behavior: classical
+    path: "/etc/openclash/rule_provider/Proxy.yaml"
+    url: https://raw.githubusercontent.com/dler-io/Rules/master/Clash/Provider/Proxy.yaml
+    interval: 86400
