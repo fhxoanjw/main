@@ -26,8 +26,8 @@ proxies:
 
   - name: WARP
     type: wireguard
-    server: 2606:4700:d0::dcec:5e70:cfd2:abdb
-    port: 987
+    server: 188.114.99.30
+    port: 1070
     ip: 172.16.0.2
     ipv6: 2606:4700:110:83b0:ee64:3d3c:f1d7:53e5
     private-key: KGkGsFZuxbwCf0n0kgjbNmBN19uU4xlPvyW9DGWN63Q=
