@@ -38,7 +38,6 @@ proxies:
     udp: true
     remote-dns-resolve: true
     ip-version: ipv4-prefer
-    
     dialer-proxy: "WARP前置节点"
 
   - name: WARP1
