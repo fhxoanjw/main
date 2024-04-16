@@ -8,6 +8,7 @@ payload:
   - IP-CIDR,45.32.24.0/24,no-resolve
   - IP-CIDR,45.63.120.0/24,no-resolve
   - IP-CIDR,45.77.44.0/24,no-resolve
+  - IP-CIDR,45.121.184.0/24,no-resolve
   - IP-CIDR,45.121.186.0/24,no-resolve
   - IP-CIDR,45.121.187.0/24,no-resolve
   - IP-CIDR,45.249.94.0/24,no-resolve
