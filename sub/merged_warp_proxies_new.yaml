@@ -35,6 +35,7 @@ proxies:
   private-key: KGkGsFZuxbwCf0n0kgjbNmBN19uU4xlPvyW9DGWN63Q=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
   udp: true
+  remote-dns-resolve: true
   ip-version: ipv4-prefer
   dialer-proxy: WARP前置节点
 - name: WARP1
@@ -46,6 +47,7 @@ proxies:
   private-key: EKzu0K8IhQIaRAnCu4Nlqhreps0Q5+vwGUYPxsHumkg=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
   udp: true
+  remote-dns-resolve: true
   ip-version: ipv6-prefer
 - name: United States_Los Angeles_hysteria2_01
   type: hysteria2
@@ -326,9 +328,9 @@ proxy-groups:
   type: select
   proxies:
   - 自动选择
+  - WARP1
   - 负载均衡
   - 手动选择
-  - WARP1
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
