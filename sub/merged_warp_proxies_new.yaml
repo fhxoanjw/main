@@ -414,6 +414,8 @@ rules:
 - DOMAIN-SUFFIX,steamserver.net,DIRECT
 - DOMAIN-SUFFIX,rule34video.com,WARP1
 - DOMAIN-SUFFIX,rule34video.party,WARP1
+- AND,((NETWORK,UDP),(GEOIP,lan)),DIRECT
+- AND,((NETWORK,UDP),(GEOIP,cn)),DIRECT
 - RULE-SET,国外常用网站合集,节点选择
 - RULE-SET,国外流媒体合集,节点选择
 - RULE-SET,国外常用网站合集(By lhie1),节点选择
