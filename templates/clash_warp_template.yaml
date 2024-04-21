@@ -16,6 +16,7 @@ dns:
   nameserver:
   - https://dns.alidns.com/dns-query
   - https://doh.pub/dns-query
+  - 218.85.157.99
   fallback:
   - https://1.0.0.1/dns-query
   - tls://dns.google
