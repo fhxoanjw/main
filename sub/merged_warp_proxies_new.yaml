@@ -37,7 +37,7 @@ proxies:
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
   udp: true
   remote-dns-resolve: true
-  mtu: 9000
+  mtu: 1280
   ip-version: ipv4-prefer
   dialer-proxy: WARP前置节点
 - name: WARP1
@@ -50,7 +50,7 @@ proxies:
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
   udp: true
   remote-dns-resolve: true
-  mtu: 9000
+  mtu: 1280
   ip-version: ipv6-prefer
 - name: United States_Los Angeles_hysteria2_01
   type: hysteria2
