@@ -120,7 +120,6 @@ rules:
   - RULE-SET,国外常用网站合集,节点选择
   - RULE-SET,国外流媒体合集,节点选择
   - RULE-SET,国外常用网站合集(By lhie1),节点选择
-  - NETWORK,UDP,WARP1
   - MATCH,节点选择
 rule-providers:
   放行规则-lhie1(建议置顶并直连):
