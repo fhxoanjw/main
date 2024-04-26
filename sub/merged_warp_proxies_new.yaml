@@ -38,7 +38,6 @@ proxies:
   udp: true
   remote-dns-resolve: true
   mtu: 1280
-  ip-version: ipv4-prefer
   dialer-proxy: WARP前置节点
 - name: WARP1
   type: wireguard
@@ -51,7 +50,6 @@ proxies:
   udp: true
   remote-dns-resolve: true
   mtu: 1280
-  ip-version: ipv6-prefer
 - name: United States_Los Angeles_tuic_01
   server: 74.63.233.74
   port: 33441
