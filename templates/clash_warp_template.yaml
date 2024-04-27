@@ -67,8 +67,8 @@ proxy-groups:
     type: select
     proxies:
       - 自动选择
-      - WARP1
       - 负载均衡
+      - WARP1
       - 手动选择
 
 
