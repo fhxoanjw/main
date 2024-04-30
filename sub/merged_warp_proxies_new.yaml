@@ -402,10 +402,11 @@ proxy-groups:
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
-- RULE-SET,放行规则-lhie1(建议置顶并直连),DIRECT
-- RULE-SET,国内IP白名单(By lhie1),DIRECT
-- RULE-SET,放行规则-ACL4SSR(建议置顶并直连),DIRECT
-- RULE-SET,放行规则-ConnersHua(建议置顶并直连),DIRECT
+- RULE-SET,国外流媒体合集,节点选择
+- RULE-SET,放行规则-lhie1(建议置顶并直连),DIRECT,no-resolve
+- RULE-SET,国内IP白名单(By lhie1),DIRECT,no-resolve
+- RULE-SET,放行规则-ACL4SSR(建议置顶并直连),DIRECT,no-resolve
+- RULE-SET,放行规则-ConnersHua(建议置顶并直连),DIRECT,no-resolve
 - RULE-SET,求生之路2,DIRECT
 - DOMAIN-SUFFIX,raw.githubusercontent.com,节点选择
 - GEOSITE,PRIVATE,DIRECT
@@ -420,7 +421,6 @@ rules:
 - AND,((NETWORK,UDP),(GEOIP,lan)),DIRECT
 - AND,((NETWORK,UDP),(GEOIP,cn)),DIRECT
 - RULE-SET,国外常用网站合集,节点选择
-- RULE-SET,国外流媒体合集,节点选择
 - RULE-SET,国外常用网站合集(By lhie1),节点选择
 - MATCH,节点选择
 rule-providers:
