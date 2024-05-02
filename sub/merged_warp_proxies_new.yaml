@@ -14,9 +14,9 @@ dns:
   - 223.5.5.5
   - 8.8.8.8
   nameserver:
-  - 218.85.157.99
   - https://dns.alidns.com/dns-query
   - https://doh.pub/dns-query
+  - https://sm2.doh.pub/dns-query
   fallback:
   - https://1.0.0.1/dns-query
   - tls://dns.google
@@ -111,7 +111,7 @@ proxies:
     path: /argox-vl?ed=2048
     headers:
       host: giving-hide-provisions-corrected.trycloudflare.com
-- name: United States_None_vless_24
+- name: None_None_vless_24
   type: vless
   server: yh1.dtku41.xyz
   port: 443
@@ -345,9 +345,10 @@ proxy-groups:
 - name: WARP前置节点
   type: select
   proxies:
+  - DIRECT
+  - WARP1
   - 自动选择
   - 负载均衡
-  - WARP1
   - 手动选择
 - name: 自动选择
   type: url-test
@@ -360,7 +361,7 @@ proxy-groups:
   - None_None_vless_21
   - None_None_vless_22
   - None_None_vless_23
-  - United States_None_vless_24
+  - None_None_vless_24
   - None_None_vmess_31
   - United States_Los Angeles_tuic_41
   - United States_Kansas City_vless_51
@@ -384,7 +385,7 @@ proxy-groups:
   - None_None_vless_21
   - None_None_vless_22
   - None_None_vless_23
-  - United States_None_vless_24
+  - None_None_vless_24
   - None_None_vmess_31
   - United States_Los Angeles_tuic_41
   - United States_Kansas City_vless_51
@@ -408,7 +409,7 @@ proxy-groups:
   - None_None_vless_21
   - None_None_vless_22
   - None_None_vless_23
-  - United States_None_vless_24
+  - None_None_vless_24
   - None_None_vmess_31
   - United States_Los Angeles_tuic_41
   - United States_Kansas City_vless_51
@@ -439,7 +440,7 @@ rules:
 - DOMAIN-SUFFIX,raw.githubusercontent.com,节点选择
 - GEOSITE,PRIVATE,DIRECT
 - GEOIP,LAN,DIRECT
-- GEOIP,CN,DIRECT
+- GEOIP,CN,DIRECT,no-resolve
 - DOMAIN-SUFFIX,oracle.com,DIRECT
 - DOMAIN-SUFFIX,steampowered.com,DIRECT
 - PROCESS-NAME,cfst,DIRECT,no-resolve
