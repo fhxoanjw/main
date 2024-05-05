@@ -55,7 +55,7 @@ proxies:
 
   - name: a
     type: vmess
-    server: c.hjqx.xyz
+    server: 07212.hjqx.xyz
     port: 8443
     cipher: auto
     uuid: 32c5088e-ad38-41db-9d79-ea06de0749e1
