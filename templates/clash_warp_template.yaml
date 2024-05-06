@@ -124,6 +124,8 @@ rules:
   - RULE-SET,放行规则-ConnersHua(建议置顶并直连),DIRECT,no-resolve
   - RULE-SET,求生之路2,DIRECT
   - DOMAIN-SUFFIX,raw.githubusercontent.com,节点选择
+  - DOMAIN-SUFFIX,ea.com,DIRECT
+  - DOMAIN-SUFFIX,akamaihd.net,DIRECT
   - GEOSITE,PRIVATE,DIRECT
   - GEOIP,LAN,DIRECT
   - GEOIP,CN,DIRECT,no-resolve
