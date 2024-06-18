@@ -9,10 +9,10 @@
 ;增强中国IP段：不支持
 ;增强国外GFW：不支持
 ;多国家分组：支持港/日/美
-- DOMAIN-SUFFIX,oracle.com,DIRECT
-- DOMAIN-SUFFIX,steampowered.com,DIRECT
-- AND,((NETWORK,UDP),(GEOIP,lan)),DIRECT
-- AND,((NETWORK,UDP),(GEOIP,cn)),DIRECT
+DOMAIN-SUFFIX,oracle.com,DIRECT
+DOMAIN-SUFFIX,steampowered.com,DIRECT
+AND,((NETWORK,UDP),(GEOIP,lan)),DIRECT
+AND,((NETWORK,UDP),(GEOIP,cn)),DIRECT
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list
 ruleset=🛑 全球拦截,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
