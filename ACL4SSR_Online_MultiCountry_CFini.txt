@@ -10,9 +10,9 @@
 ;增强国外GFW：不支持
 ;多国家分组：支持港/日/美
 
-surge_ruleset=🎯 全球直连,https://raw.githubusercontent.com/fhxoanjw/main/main/my.list
+ruleset=🎯 全球直连,https://raw.githubusercontent.com/fhxoanjw/main/main/my.list
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
-ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/UnBan.yaml
+ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/UnBan.list
 ruleset=🛑 全球拦截,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
 ruleset=🍃 应用净化,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list
 ruleset=🍃 应用净化,https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/adobe.list
