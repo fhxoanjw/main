@@ -15,4 +15,4 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
   nameserver-policy:
-    geosite:geolocation-!cn: https://dns64.dns.google/dns-query,https://1.0.0.1/dns-query
+    geosite:geolocation-!cn: tls://dns.google:853
