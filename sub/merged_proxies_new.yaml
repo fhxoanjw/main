@@ -3697,7 +3697,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: None_None_vmess_11158
+  name: Costa Rica_None_vmess_11158
   network: ws
   port: '2052'
   server: cfcdn1.sanfencdn9.com
@@ -3932,7 +3932,7 @@ proxies:
     path: /video/9TfVEyku
     headers:
       host: wtywwcrzjp5.yofnhkfc.xyz
-- name: None_None_vmess_125
+- name: United States_None_vmess_125
   type: vmess
   server: linde06.indiavideo.sbs
   port: '443'
@@ -4222,7 +4222,7 @@ proxies:
     path: /
     headers:
       host: tms.dingtalk.com
-- name: None_None_vmess_1227
+- name: United States_None_vmess_1227
   type: vmess
   server: russia.com
   port: '8080'
@@ -4278,7 +4278,7 @@ proxies:
     path: /linkws
     headers:
       host: obdii.cfd
-- name: None_None_vmess_1231
+- name: United States_None_vmess_1231
   type: vmess
   server: zula.ir
   port: 2096
@@ -4292,7 +4292,7 @@ proxies:
     path: /
     headers:
       host: kingo.hightechservice.ir
-- name: None_None_vmess_1232
+- name: United States_None_vmess_1232
   type: vmess
   server: zula.ir
   port: '2096'
@@ -4320,7 +4320,7 @@ proxies:
     path: '@RaFaV2ray'
     headers:
       host: ''
-- name: None_None_vmess_1234
+- name: United States_None_vmess_1234
   type: vmess
   server: Varuzhan.digifashop.ir.
   port: '443'
@@ -4334,7 +4334,7 @@ proxies:
     path: '@RaFaV2ray'
     headers:
       host: ''
-- name: None_None_vmess_1235
+- name: United States_None_vmess_1235
   type: vmess
   server: Khuosrow.digifashop.ir.
   port: '443'
@@ -4348,7 +4348,7 @@ proxies:
     path: '@RaFaV2ray'
     headers:
       host: ''
-- name: United States_None_vmess_1236
+- name: None_None_vmess_1236
   type: vmess
   server: Lousaper.digifashop.ir.
   port: '443'
@@ -4376,7 +4376,7 @@ proxies:
     path: /QvtvPdDXXIlSdZMqnuxG
     headers:
       host: hdfy1c4.sassanidempire.com
-- name: None_None_vmess_1238
+- name: United States_None_vmess_1238
   type: vmess
   server: cdnjs.com
   port: '443'
@@ -4535,7 +4535,7 @@ proxies:
     path: /Telegram:@UnlimitedDev-Telegram:@UnlimitedDev
     headers:
       host: unlimiteddev-vpn.unlimiteddev.Community.
-- name: United States_None_vless_1250
+- name: None_None_vless_1250
   type: vless
   server: zula.ir
   port: 80
@@ -4548,7 +4548,7 @@ proxies:
     path: /@NIM_VPN_ir,@NIM_VPN_ir
     headers:
       host: asdwds.kolacghi.ir
-- name: United States_None_vless_1251
+- name: None_None_vless_1251
   type: vless
   server: zula.ir
   port: 80
@@ -4655,7 +4655,7 @@ proxies:
   servername: ch1.melobigg.site
   ws-opts:
     path: /melov2ray
-- name: United States_None_vless_1259
+- name: None_None_vless_1259
   type: vless
   server: zula.ir
   port: 80
@@ -4681,7 +4681,7 @@ proxies:
     path: /melov2ray/melov2ray/melov2ray/melov2ray/melov2ray/melov2ray/melov2ray
     headers:
       host: ch1.dontbow.store.
-- name: United States_None_vless_1261
+- name: None_None_vless_1261
   type: vless
   server: ch1.melobigg.site
   port: 8443
@@ -4936,7 +4936,7 @@ proxies:
     path: /@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-@LiV2ray?ed=1024
     headers:
       host: V2ray.B.weufgwoof.cfd.
-- name: None_None_vless_1281
+- name: United States_None_vless_1281
   type: vless
   server: Zula.ir
   port: 2087
@@ -5309,7 +5309,7 @@ proxies:
     path: /t.me/V2rayFa-V2rayng-v2rayNgfree-telegram-t.me/V2rayfa_telegram?ed=2048
     headers:
       host: 穆罕默德侯赛因freeforiran.net.v2rayng.8.8.8.8.free.skullbasher.wex.wex.wex.wex.mf.ssd.youcantplayinvoker.tech.
-- name: United States_None_vless_12109
+- name: None_None_vless_12109
   type: vless
   server: zula.ir
   port: 8080
@@ -5469,7 +5469,7 @@ proxies:
   servername: marketepicnode10.bestgameir2.ir
   ws-opts:
     path: /
-- name: None_None_vless_12121
+- name: United States_None_vless_12121
   type: vless
   server: cdnnode2mahz.zaracloudcenter.ir
   port: 2083
@@ -5481,7 +5481,7 @@ proxies:
   servername: cdnnode2mahz.zaracloudcenter.ir
   ws-opts:
     path: /
-- name: United States_None_vless_12122
+- name: None_None_vless_12122
   type: vless
   server: proxyforopeta.liongame1.ir
   port: 2083
@@ -5561,7 +5561,7 @@ proxies:
     path: /eOwMtmADY6cWup8R?ed
     headers:
       host: VPnerOr.sajAdHaDaDI.WEbSITe
-- name: None_None_vless_12128
+- name: United States_None_vless_12128
   type: vless
   server: eagle.hafezdivan.online.
   port: 443
@@ -5586,7 +5586,7 @@ proxies:
     path: /iXNpb8TL5D4uHOQC?ed=2560
     headers:
       host: hey.bacheBiapAIN.iR
-- name: United States_None_vless_12130
+- name: None_None_vless_12130
   type: vless
   server: zula.ir
   port: 2095
@@ -5634,7 +5634,7 @@ proxies:
   client-fingerprint: chrome
   ws-opts:
     path: /
-- name: None_None_vless_12134
+- name: United States_None_vless_12134
   type: vless
   server: allsms.rozfa.com
   port: 443
@@ -5703,7 +5703,7 @@ proxies:
     path: /?ed=2048
     headers:
       host: e10c0e4b.oodaeq2.pages.dev
-- name: None_None_vless_12139
+- name: United States_None_vless_12139
   type: vless
   server: eagle.Hafezdivan.Online.
   port: 80
@@ -5742,7 +5742,7 @@ proxies:
     path: /Telegram:@UnlimitedDev-Telegram:@UnlimitedDev?ed=8080
     headers:
       host: unlimiteddev-vpn.unlimiteddev.Community.
-- name: United States_None_vless_12142
+- name: None_None_vless_12142
   type: vless
   server: zula.ir
   port: 8080
@@ -7119,7 +7119,7 @@ proxies:
     path: /Telegram:@UnlimitedDev-Telegram:@UnlimitedDev?ed=8080
     headers:
       host: unlimiteddev-vpn.unlimiteddev.Community.
-- name: United States_None_vless_12247
+- name: None_None_vless_12247
   type: vless
   server: serverpars.com
   port: 8880
@@ -7145,7 +7145,7 @@ proxies:
     path: /@Proxy_MTM-@Proxy_MTM-@Proxy_MTM-Proxy_@MTM?ed=2056
     headers:
       host: 1.V2rayV2ray-_-_-V2ray.Zemestanil.Ir
-- name: None_None_vless_12249
+- name: United States_None_vless_12249
   type: vless
   server: zula.ir
   port: 80
@@ -7266,7 +7266,7 @@ proxies:
     path: /@V2RAXX-@V2RAXX?ed=2048
     headers:
       host: xn--047h.v2raxx6.shop.
-- name: None_None_vless_12258
+- name: United States_None_vless_12258
   type: vless
   server: zula.ir
   port: 8080
@@ -7279,7 +7279,7 @@ proxies:
     path: /Join--VPNCUSTOMIZE.V2ray.re?ed=8080
     headers:
       host: telewebion.com.www.speedtest.net.google.com.speed.cloudflare.com.bmw.com.zula.ir.xbox.com.ßotshop.irł😂☠️.2.srtongston.ir
-- name: None_None_vless_12259
+- name: United States_None_vless_12259
   type: vless
   server: zula.ir
   port: 8080
@@ -7292,7 +7292,7 @@ proxies:
     path: /Join--VPNCUSTOMIZE.V2ray.re?ed=8080
     headers:
       host: telewebion.com.www.speedtest.net.google.com.speed.cloudflare.com.bmw.com.zula.ir.xbox.com.ßotshop.irł😂☠️.2.srtongston.ir
-- name: United States_None_vless_12260
+- name: None_None_vless_12260
   type: vless
   server: zula.ir
   port: 8080
@@ -8638,7 +8638,7 @@ proxy-groups:
   - China_None_trojan_11155
   - China_None_trojan_11156
   - China_None_ss_11157
-  - None_None_vmess_11158
+  - Costa Rica_None_vmess_11158
   - China_None_trojan_11159
   - Japan_None_vmess_11160
   - Japan_Tokyo_vmess_11161
@@ -8660,7 +8660,7 @@ proxy-groups:
   - None_None_vmess_122
   - None_None_vmess_123
   - None_None_vmess_124
-  - None_None_vmess_125
+  - United States_None_vmess_125
   - None_None_vmess_126
   - The Netherlands_Amsterdam_vmess_127
   - United States_None_vmess_128
@@ -8682,18 +8682,18 @@ proxy-groups:
   - Taiwan_New Taipei_vmess_1224
   - China_Shanghai_vmess_1225
   - China_Shanghai_vmess_1226
-  - None_None_vmess_1227
+  - United States_None_vmess_1227
   - United States_Richardson_vmess_1228
   - The Netherlands_Amsterdam_vmess_1229
   - United States_None_vmess_1230
-  - None_None_vmess_1231
-  - None_None_vmess_1232
+  - United States_None_vmess_1231
+  - United States_None_vmess_1232
   - United States_None_vmess_1233
-  - None_None_vmess_1234
-  - None_None_vmess_1235
-  - United States_None_vmess_1236
+  - United States_None_vmess_1234
+  - United States_None_vmess_1235
+  - None_None_vmess_1236
   - United States_San Francisco_vmess_1237
-  - None_None_vmess_1238
+  - United States_None_vmess_1238
   - None_None_vmess_1239
   - United States_None_vmess_1240
   - None_None_vmess_1241
@@ -8705,8 +8705,8 @@ proxy-groups:
   - Sweden_None_vless_1247
   - Iran_None_vless_1248
   - Sweden_None_vless_1249
-  - United States_None_vless_1250
-  - United States_None_vless_1251
+  - None_None_vless_1250
+  - None_None_vless_1251
   - None_None_vless_1252
   - None_None_vless_1253
   - Canada_Montreal_vless_1254
@@ -8714,9 +8714,9 @@ proxy-groups:
   - United States_Ashburn_vless_1256
   - United States_Ashburn_vless_1257
   - United States_None_vless_1258
-  - United States_None_vless_1259
+  - None_None_vless_1259
   - None_None_vless_1260
-  - United States_None_vless_1261
+  - None_None_vless_1261
   - United States_None_vless_1262
   - None_None_vless_1263
   - Iran_Tehran_vless_1264
@@ -8736,7 +8736,7 @@ proxy-groups:
   - Sweden_None_vless_1278
   - Sweden_None_vless_1279
   - Sweden_None_vless_1280
-  - None_None_vless_1281
+  - United States_None_vless_1281
   - Sweden_None_vless_1282
   - Sweden_None_vless_1283
   - United States_San Jose_vless_1284
@@ -8764,7 +8764,7 @@ proxy-groups:
   - Sweden_None_vless_12106
   - None_None_vless_12107
   - None_None_vless_12108
-  - United States_None_vless_12109
+  - None_None_vless_12109
   - None_None_vless_12110
   - United States_None_vless_12111
   - None_None_vless_12112
@@ -8776,28 +8776,28 @@ proxy-groups:
   - None_None_vless_12118
   - None_None_vless_12119
   - None_None_vless_12120
-  - None_None_vless_12121
-  - United States_None_vless_12122
+  - United States_None_vless_12121
+  - None_None_vless_12122
   - None_None_vless_12123
   - None_None_vless_12124
   - United States_None_vless_12125
   - Sweden_None_vless_12126
   - None_None_vless_12127
-  - None_None_vless_12128
+  - United States_None_vless_12128
   - None_None_vless_12129
-  - United States_None_vless_12130
+  - None_None_vless_12130
   - United States_None_vless_12131
   - None_None_vless_12132
   - None_None_vless_12133
-  - None_None_vless_12134
+  - United States_None_vless_12134
   - None_None_vless_12135
   - The Netherlands_Amsterdam_vless_12136
   - The Netherlands_Amsterdam_vless_12137
   - The Netherlands_Amsterdam_vless_12138
-  - None_None_vless_12139
+  - United States_None_vless_12139
   - None_None_vless_12140
   - Sweden_None_vless_12141
-  - United States_None_vless_12142
+  - None_None_vless_12142
   - The Netherlands_Amsterdam_vless_12143
   - Sweden_None_vless_12144
   - Iran_None_vless_12145
@@ -8902,9 +8902,9 @@ proxy-groups:
   - The Netherlands_Amsterdam_vless_12244
   - Iran_None_vless_12245
   - None_None_vless_12246
-  - United States_None_vless_12247
+  - None_None_vless_12247
   - Sweden_None_vless_12248
-  - None_None_vless_12249
+  - United States_None_vless_12249
   - Costa Rica_None_vless_12250
   - Sweden_None_vless_12251
   - The Netherlands_Amsterdam_vless_12252
@@ -8913,9 +8913,9 @@ proxy-groups:
   - United States_San Jose_vless_12255
   - United States_San Jose_vless_12256
   - Sweden_None_vless_12257
-  - None_None_vless_12258
-  - None_None_vless_12259
-  - United States_None_vless_12260
+  - United States_None_vless_12258
+  - United States_None_vless_12259
+  - None_None_vless_12260
   - United Kingdom_London_trojan_12261
   - United Kingdom_London_trojan_12262
   - France_Paris_trojan_12263
@@ -9303,7 +9303,7 @@ proxy-groups:
   - China_None_trojan_11155
   - China_None_trojan_11156
   - China_None_ss_11157
-  - None_None_vmess_11158
+  - Costa Rica_None_vmess_11158
   - China_None_trojan_11159
   - Japan_None_vmess_11160
   - Japan_Tokyo_vmess_11161
@@ -9325,7 +9325,7 @@ proxy-groups:
   - None_None_vmess_122
   - None_None_vmess_123
   - None_None_vmess_124
-  - None_None_vmess_125
+  - United States_None_vmess_125
   - None_None_vmess_126
   - The Netherlands_Amsterdam_vmess_127
   - United States_None_vmess_128
@@ -9347,18 +9347,18 @@ proxy-groups:
   - Taiwan_New Taipei_vmess_1224
   - China_Shanghai_vmess_1225
   - China_Shanghai_vmess_1226
-  - None_None_vmess_1227
+  - United States_None_vmess_1227
   - United States_Richardson_vmess_1228
   - The Netherlands_Amsterdam_vmess_1229
   - United States_None_vmess_1230
-  - None_None_vmess_1231
-  - None_None_vmess_1232
+  - United States_None_vmess_1231
+  - United States_None_vmess_1232
   - United States_None_vmess_1233
-  - None_None_vmess_1234
-  - None_None_vmess_1235
-  - United States_None_vmess_1236
+  - United States_None_vmess_1234
+  - United States_None_vmess_1235
+  - None_None_vmess_1236
   - United States_San Francisco_vmess_1237
-  - None_None_vmess_1238
+  - United States_None_vmess_1238
   - None_None_vmess_1239
   - United States_None_vmess_1240
   - None_None_vmess_1241
@@ -9370,8 +9370,8 @@ proxy-groups:
   - Sweden_None_vless_1247
   - Iran_None_vless_1248
   - Sweden_None_vless_1249
-  - United States_None_vless_1250
-  - United States_None_vless_1251
+  - None_None_vless_1250
+  - None_None_vless_1251
   - None_None_vless_1252
   - None_None_vless_1253
   - Canada_Montreal_vless_1254
@@ -9379,9 +9379,9 @@ proxy-groups:
   - United States_Ashburn_vless_1256
   - United States_Ashburn_vless_1257
   - United States_None_vless_1258
-  - United States_None_vless_1259
+  - None_None_vless_1259
   - None_None_vless_1260
-  - United States_None_vless_1261
+  - None_None_vless_1261
   - United States_None_vless_1262
   - None_None_vless_1263
   - Iran_Tehran_vless_1264
@@ -9401,7 +9401,7 @@ proxy-groups:
   - Sweden_None_vless_1278
   - Sweden_None_vless_1279
   - Sweden_None_vless_1280
-  - None_None_vless_1281
+  - United States_None_vless_1281
   - Sweden_None_vless_1282
   - Sweden_None_vless_1283
   - United States_San Jose_vless_1284
@@ -9429,7 +9429,7 @@ proxy-groups:
   - Sweden_None_vless_12106
   - None_None_vless_12107
   - None_None_vless_12108
-  - United States_None_vless_12109
+  - None_None_vless_12109
   - None_None_vless_12110
   - United States_None_vless_12111
   - None_None_vless_12112
@@ -9441,28 +9441,28 @@ proxy-groups:
   - None_None_vless_12118
   - None_None_vless_12119
   - None_None_vless_12120
-  - None_None_vless_12121
-  - United States_None_vless_12122
+  - United States_None_vless_12121
+  - None_None_vless_12122
   - None_None_vless_12123
   - None_None_vless_12124
   - United States_None_vless_12125
   - Sweden_None_vless_12126
   - None_None_vless_12127
-  - None_None_vless_12128
+  - United States_None_vless_12128
   - None_None_vless_12129
-  - United States_None_vless_12130
+  - None_None_vless_12130
   - United States_None_vless_12131
   - None_None_vless_12132
   - None_None_vless_12133
-  - None_None_vless_12134
+  - United States_None_vless_12134
   - None_None_vless_12135
   - The Netherlands_Amsterdam_vless_12136
   - The Netherlands_Amsterdam_vless_12137
   - The Netherlands_Amsterdam_vless_12138
-  - None_None_vless_12139
+  - United States_None_vless_12139
   - None_None_vless_12140
   - Sweden_None_vless_12141
-  - United States_None_vless_12142
+  - None_None_vless_12142
   - The Netherlands_Amsterdam_vless_12143
   - Sweden_None_vless_12144
   - Iran_None_vless_12145
@@ -9567,9 +9567,9 @@ proxy-groups:
   - The Netherlands_Amsterdam_vless_12244
   - Iran_None_vless_12245
   - None_None_vless_12246
-  - United States_None_vless_12247
+  - None_None_vless_12247
   - Sweden_None_vless_12248
-  - None_None_vless_12249
+  - United States_None_vless_12249
   - Costa Rica_None_vless_12250
   - Sweden_None_vless_12251
   - The Netherlands_Amsterdam_vless_12252
@@ -9578,9 +9578,9 @@ proxy-groups:
   - United States_San Jose_vless_12255
   - United States_San Jose_vless_12256
   - Sweden_None_vless_12257
-  - None_None_vless_12258
-  - None_None_vless_12259
-  - United States_None_vless_12260
+  - United States_None_vless_12258
+  - United States_None_vless_12259
+  - None_None_vless_12260
   - United Kingdom_London_trojan_12261
   - United Kingdom_London_trojan_12262
   - France_Paris_trojan_12263
