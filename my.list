@@ -1,0 +1,4 @@
+DOMAIN-SUFFIX,oracle.com
+DOMAIN-SUFFIX,steampowered.com
+AND,((NETWORK,UDP),(GEOIP,lan))
+AND,((NETWORK,UDP),(GEOIP,cn))
