@@ -1460,7 +1460,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: None_None_vmess_094
+- name: United States_None_vmess_094
   type: vmess
   server: icook.tw
   port: 2086
@@ -1520,7 +1520,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: None_None_vmess_098
+- name: United States_None_vmess_098
   type: vmess
   server: russia.com
   port: 2086
@@ -2427,14 +2427,21 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip5-10.freegradely.xyz
-- cipher: aes-256-cfb
-  name: United States_Boardman_ssr_111
-  obfs: tls1.2_ticket_auth
-  password: fou8MBGij
-  port: 8081
-  protocol: origin
-  server: us-am3.eqnode.net
-  type: ssr
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: Singapore_Singapore_vmess_111
+  network: ws
+  port: 80
+  server: 206.238.236.36
+  skip-cert-verify: true
+  type: vmess
+  uuid: bc864078-dcf3-4bf4-8dbf-ca9f200b56be
+  ws-opts:
+    headers:
+      Host: mysan2.jaquay22.workers.dev
+    path: /gwdef.sbs/linkws
 - alterId: 0
   cipher: auto
   name: None_None_vmess_112
@@ -3069,7 +3076,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: United States_None_vmess_1145
+  name: None_None_vmess_1145
   network: ws
   port: '2052'
   server: cfcdn1.sanfencdn9.com
@@ -3131,7 +3138,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: United States_None_vmess_1150
+  name: None_None_vmess_1150
   network: ws
   port: '2095'
   server: cfcdn1.sanfencdn9.com
@@ -3483,11 +3490,11 @@ proxy-groups:
   - United States_San Francisco_vmess_091
   - None_None_vmess_092
   - Canada_Ottawa_vmess_093
-  - None_None_vmess_094
+  - United States_None_vmess_094
   - United States_None_vmess_095
   - None_None_vmess_096
   - None_None_vmess_097
-  - None_None_vmess_098
+  - United States_None_vmess_098
   - None_None_vmess_099
   - United States_None_vmess_0100
   - None_None_vmess_0101
@@ -3548,7 +3555,7 @@ proxy-groups:
   - Canada_Ottawa_vmess_92
   - None_None_vmess_93
   - None_None_vmess_94
-  - United States_Boardman_ssr_111
+  - Singapore_Singapore_vmess_111
   - None_None_vmess_112
   - Canada_Ottawa_vmess_113
   - None_None_vmess_114
@@ -3592,12 +3599,12 @@ proxy-groups:
   - United States_None_vmess_1142
   - China_None_trojan_1143
   - China_None_vmess_1144
-  - United States_None_vmess_1145
+  - None_None_vmess_1145
   - China_None_trojan_1146
   - None_None_vmess_1147
   - None_None_vmess_1148
   - China_None_trojan_1149
-  - United States_None_vmess_1150
+  - None_None_vmess_1150
   - China_Shenzhen_vmess_1151
   - None_None_vmess_1152
   - United States_None_trojan_1153
@@ -3725,11 +3732,11 @@ proxy-groups:
   - United States_San Francisco_vmess_091
   - None_None_vmess_092
   - Canada_Ottawa_vmess_093
-  - None_None_vmess_094
+  - United States_None_vmess_094
   - United States_None_vmess_095
   - None_None_vmess_096
   - None_None_vmess_097
-  - None_None_vmess_098
+  - United States_None_vmess_098
   - None_None_vmess_099
   - United States_None_vmess_0100
   - None_None_vmess_0101
@@ -3790,7 +3797,7 @@ proxy-groups:
   - Canada_Ottawa_vmess_92
   - None_None_vmess_93
   - None_None_vmess_94
-  - United States_Boardman_ssr_111
+  - Singapore_Singapore_vmess_111
   - None_None_vmess_112
   - Canada_Ottawa_vmess_113
   - None_None_vmess_114
@@ -3834,12 +3841,12 @@ proxy-groups:
   - United States_None_vmess_1142
   - China_None_trojan_1143
   - China_None_vmess_1144
-  - United States_None_vmess_1145
+  - None_None_vmess_1145
   - China_None_trojan_1146
   - None_None_vmess_1147
   - None_None_vmess_1148
   - China_None_trojan_1149
-  - United States_None_vmess_1150
+  - None_None_vmess_1150
   - China_Shenzhen_vmess_1151
   - None_None_vmess_1152
   - United States_None_trojan_1153
