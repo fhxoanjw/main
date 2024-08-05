@@ -1550,7 +1550,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: None_None_vmess_0100
+- name: United States_None_vmess_0100
   type: vmess
   server: skk.moe
   port: 2086
@@ -3069,7 +3069,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: None_None_vmess_1145
+  name: United States_None_vmess_1145
   network: ws
   port: '2052'
   server: cfcdn1.sanfencdn9.com
@@ -3092,7 +3092,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: None_None_vmess_1147
+  name: United States_None_vmess_1147
   network: ws
   port: '80'
   server: cfcdn3.sanfencdn9.com
@@ -3131,7 +3131,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: None_None_vmess_1150
+  name: United States_None_vmess_1150
   network: ws
   port: '2095'
   server: cfcdn1.sanfencdn9.com
@@ -3503,7 +3503,7 @@ proxy-groups:
   - None_None_vmess_097
   - None_None_vmess_098
   - United States_None_vmess_099
-  - None_None_vmess_0100
+  - United States_None_vmess_0100
   - None_None_vmess_0101
   - None_None_vmess_11
   - None_None_vmess_12
@@ -3606,12 +3606,12 @@ proxy-groups:
   - United States_None_vmess_1142
   - China_None_trojan_1143
   - China_None_vmess_1144
-  - None_None_vmess_1145
+  - United States_None_vmess_1145
   - China_None_trojan_1146
-  - None_None_vmess_1147
+  - United States_None_vmess_1147
   - None_None_vmess_1148
   - China_None_trojan_1149
-  - None_None_vmess_1150
+  - United States_None_vmess_1150
   - China_Shenzhen_vmess_1151
   - None_None_vmess_1152
   - United States_None_trojan_1153
@@ -3734,7 +3734,7 @@ proxy-groups:
   - None_None_vmess_097
   - None_None_vmess_098
   - United States_None_vmess_099
-  - None_None_vmess_0100
+  - United States_None_vmess_0100
   - None_None_vmess_0101
   - None_None_vmess_11
   - None_None_vmess_12
@@ -3837,12 +3837,12 @@ proxy-groups:
   - United States_None_vmess_1142
   - China_None_trojan_1143
   - China_None_vmess_1144
-  - None_None_vmess_1145
+  - United States_None_vmess_1145
   - China_None_trojan_1146
-  - None_None_vmess_1147
+  - United States_None_vmess_1147
   - None_None_vmess_1148
   - China_None_trojan_1149
-  - None_None_vmess_1150
+  - United States_None_vmess_1150
   - China_Shenzhen_vmess_1151
   - None_None_vmess_1152
   - United States_None_trojan_1153
@@ -3965,7 +3965,7 @@ proxy-groups:
   - None_None_vmess_097
   - None_None_vmess_098
   - United States_None_vmess_099
-  - None_None_vmess_0100
+  - United States_None_vmess_0100
   - None_None_vmess_0101
   - None_None_vmess_11
   - None_None_vmess_12
@@ -4068,12 +4068,12 @@ proxy-groups:
   - United States_None_vmess_1142
   - China_None_trojan_1143
   - China_None_vmess_1144
-  - None_None_vmess_1145
+  - United States_None_vmess_1145
   - China_None_trojan_1146
-  - None_None_vmess_1147
+  - United States_None_vmess_1147
   - None_None_vmess_1148
   - China_None_trojan_1149
-  - None_None_vmess_1150
+  - United States_None_vmess_1150
   - China_Shenzhen_vmess_1151
   - None_None_vmess_1152
   - United States_None_trojan_1153
