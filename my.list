@@ -2,5 +2,6 @@ DOMAIN-SUFFIX,oracle.com,no-resolve
 DOMAIN-SUFFIX,steampowered.com,no-resolve
 AND,((NETWORK,UDP),(GEOIP,lan)),no-resolve
 AND,((NETWORK,UDP),(GEOIP,cn)),no-resolve
-RULE-SET,LAN,no-resolve
-RULE-SET,GEOIP,CN,no-resolve
+GEOIP,LAN,no-resolve
+GEOIP,CN,no-resolve
+GEOSITE,CN,no-resolve
