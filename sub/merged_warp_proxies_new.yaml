@@ -236,7 +236,7 @@ proxies:
   name: Hong Kong_None_ss_106
   password: amazongreatvpn
   port: 16888
-  server: 18.162.224.234
+  server: 18.163.165.61
   type: ss
 - name: Hong Kong_None_trojan_107
   network: tcp
@@ -265,7 +265,7 @@ proxies:
   server: 111.253.205.251
   type: ss
 - cipher: rc4-md5
-  name: China_None_ss_1011
+  name: China_Guangzhou_ss_1011
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -308,7 +308,7 @@ proxies:
   name: Japan_Tokyo_ss_1015
   password: amazongreatvpn
   port: 16888
-  server: 57.183.2.72
+  server: 3.115.20.29
   type: ss
 - name: Japan_Tokyo_trojan_1016
   network: tcp
@@ -342,7 +342,7 @@ proxies:
       Host: baidu.com
     path: /oooo
 - cipher: rc4-md5
-  name: China_None_ss_1019
+  name: China_Guangzhou_ss_1019
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -1345,7 +1345,7 @@ proxies:
   name: Hong Kong_None_ss_1116
   password: amazongreatvpn
   port: 16888
-  server: 18.162.224.234
+  server: 18.163.165.61
   type: ss
 - name: Hong Kong_None_trojan_1117
   network: tcp
@@ -1374,7 +1374,7 @@ proxies:
   server: 111.253.205.251
   type: ss
 - cipher: rc4-md5
-  name: China_None_ss_1121
+  name: China_Guangzhou_ss_1121
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -1417,7 +1417,7 @@ proxies:
   name: Japan_Tokyo_ss_1125
   password: amazongreatvpn
   port: 16888
-  server: 57.183.2.72
+  server: 3.115.20.29
   type: ss
 - name: Japan_Tokyo_trojan_1126
   network: tcp
@@ -1451,7 +1451,7 @@ proxies:
       Host: baidu.com
     path: /oooo
 - cipher: rc4-md5
-  name: China_None_ss_1129
+  name: China_Guangzhou_ss_1129
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -2460,7 +2460,7 @@ proxy-groups:
   - Taiwan_Taichung_ss_108
   - Taiwan_Banqiao_ss_109
   - Taiwan_Banqiao_ss_1010
-  - China_None_ss_1011
+  - China_Guangzhou_ss_1011
   - Japan_Tokyo_ss_1012
   - Japan_Tokyo_trojan_1013
   - China_None_trojan_1014
@@ -2468,7 +2468,7 @@ proxy-groups:
   - Japan_Tokyo_trojan_1016
   - China_None_trojan_1017
   - China_None_vmess_1018
-  - China_None_ss_1019
+  - China_Guangzhou_ss_1019
   - Japan_Tokyo_trojan_1020
   - Japan_Tokyo_trojan_1021
   - Hong Kong_Hong Kong_vmess_1022
@@ -2555,7 +2555,7 @@ proxy-groups:
   - Taiwan_Taichung_ss_1118
   - Taiwan_Banqiao_ss_1119
   - Taiwan_Banqiao_ss_1120
-  - China_None_ss_1121
+  - China_Guangzhou_ss_1121
   - Japan_Tokyo_ss_1122
   - Japan_Tokyo_trojan_1123
   - China_None_trojan_1124
@@ -2563,7 +2563,7 @@ proxy-groups:
   - Japan_Tokyo_trojan_1126
   - China_None_trojan_1127
   - China_None_vmess_1128
-  - China_None_ss_1129
+  - China_Guangzhou_ss_1129
   - Japan_Tokyo_trojan_1130
   - Japan_Tokyo_trojan_1131
   - Hong Kong_Hong Kong_vmess_1132
@@ -2663,7 +2663,7 @@ proxy-groups:
   - Taiwan_Taichung_ss_108
   - Taiwan_Banqiao_ss_109
   - Taiwan_Banqiao_ss_1010
-  - China_None_ss_1011
+  - China_Guangzhou_ss_1011
   - Japan_Tokyo_ss_1012
   - Japan_Tokyo_trojan_1013
   - China_None_trojan_1014
@@ -2671,7 +2671,7 @@ proxy-groups:
   - Japan_Tokyo_trojan_1016
   - China_None_trojan_1017
   - China_None_vmess_1018
-  - China_None_ss_1019
+  - China_Guangzhou_ss_1019
   - Japan_Tokyo_trojan_1020
   - Japan_Tokyo_trojan_1021
   - Hong Kong_Hong Kong_vmess_1022
@@ -2758,7 +2758,7 @@ proxy-groups:
   - Taiwan_Taichung_ss_1118
   - Taiwan_Banqiao_ss_1119
   - Taiwan_Banqiao_ss_1120
-  - China_None_ss_1121
+  - China_Guangzhou_ss_1121
   - Japan_Tokyo_ss_1122
   - Japan_Tokyo_trojan_1123
   - China_None_trojan_1124
@@ -2766,7 +2766,7 @@ proxy-groups:
   - Japan_Tokyo_trojan_1126
   - China_None_trojan_1127
   - China_None_vmess_1128
-  - China_None_ss_1129
+  - China_Guangzhou_ss_1129
   - Japan_Tokyo_trojan_1130
   - Japan_Tokyo_trojan_1131
   - Hong Kong_Hong Kong_vmess_1132
@@ -2866,7 +2866,7 @@ proxy-groups:
   - Taiwan_Taichung_ss_108
   - Taiwan_Banqiao_ss_109
   - Taiwan_Banqiao_ss_1010
-  - China_None_ss_1011
+  - China_Guangzhou_ss_1011
   - Japan_Tokyo_ss_1012
   - Japan_Tokyo_trojan_1013
   - China_None_trojan_1014
@@ -2874,7 +2874,7 @@ proxy-groups:
   - Japan_Tokyo_trojan_1016
   - China_None_trojan_1017
   - China_None_vmess_1018
-  - China_None_ss_1019
+  - China_Guangzhou_ss_1019
   - Japan_Tokyo_trojan_1020
   - Japan_Tokyo_trojan_1021
   - Hong Kong_Hong Kong_vmess_1022
@@ -2961,7 +2961,7 @@ proxy-groups:
   - Taiwan_Taichung_ss_1118
   - Taiwan_Banqiao_ss_1119
   - Taiwan_Banqiao_ss_1120
-  - China_None_ss_1121
+  - China_Guangzhou_ss_1121
   - Japan_Tokyo_ss_1122
   - Japan_Tokyo_trojan_1123
   - China_None_trojan_1124
@@ -2969,7 +2969,7 @@ proxy-groups:
   - Japan_Tokyo_trojan_1126
   - China_None_trojan_1127
   - China_None_vmess_1128
-  - China_None_ss_1129
+  - China_Guangzhou_ss_1129
   - Japan_Tokyo_trojan_1130
   - Japan_Tokyo_trojan_1131
   - Hong Kong_Hong Kong_vmess_1132
