@@ -29,7 +29,7 @@ dns:
 proxies:
 - name: WARP
   type: wireguard
-  server: 188.114.99.30
+  server: engage.cloudflareclient.com
   port: 1070
   ip: 172.16.0.2
   ipv6: 2606:4700:110:83b0:ee64:3d3c:f1d7:53e5
