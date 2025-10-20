@@ -244,6 +244,7 @@ proxies:
   server: 36.151.251.18
   skip-cert-verify: true
   type: trojan
+  udp: true
 - name: Japan_Tokyo_trojan_108
   network: tcp
   password: c53647f3153f784b3c695ffbe5fb43c0
@@ -305,6 +306,7 @@ proxies:
   server: 36.156.102.115
   skip-cert-verify: true
   type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: Hong Kong_None_vmess_1016
@@ -475,6 +477,7 @@ proxies:
   server: 36.151.251.18
   skip-cert-verify: true
   type: trojan
+  udp: true
 - name: Japan_Tokyo_trojan_1118
   network: tcp
   password: c53647f3153f784b3c695ffbe5fb43c0
@@ -536,6 +539,7 @@ proxies:
   server: 36.156.102.115
   skip-cert-verify: true
   type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: Hong Kong_None_vmess_1126
