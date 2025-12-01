@@ -182,7 +182,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_102
+  name: Hong Kong_Tuen Mun_vmess_102
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -316,7 +316,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_1018
+  name: Hong Kong_Tuen Mun_vmess_1018
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -432,7 +432,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_1112
+  name: Hong Kong_Tuen Mun_vmess_1112
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -566,7 +566,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_1128
+  name: Hong Kong_Tuen Mun_vmess_1128
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -645,7 +645,7 @@ proxy-groups:
   - Unknown_hysteria_81
   - Unknown_hysteria_91
   - United States_None_ss_101
-  - Hong Kong_Central_vmess_102
+  - Hong Kong_Tuen Mun_vmess_102
   - Hong Kong_None_ss_103
   - Hong Kong_Central_trojan_104
   - Hong Kong_Sai Wan_trojan_105
@@ -661,7 +661,7 @@ proxy-groups:
   - Japan_Tokyo_trojan_1015
   - Hong Kong_Central_trojan_1016
   - Vietnam_None_ss_1017
-  - Hong Kong_Central_vmess_1018
+  - Hong Kong_Tuen Mun_vmess_1018
   - Hong Kong_Hong Kong_vmess_1019
   - Unknown_vmess_111
   - Unknown_vmess_112
@@ -674,7 +674,7 @@ proxy-groups:
   - Unknown_vmess_119
   - Unknown_vmess_1110
   - United States_None_ss_1111
-  - Hong Kong_Central_vmess_1112
+  - Hong Kong_Tuen Mun_vmess_1112
   - Hong Kong_None_ss_1113
   - Hong Kong_Central_trojan_1114
   - Hong Kong_Sai Wan_trojan_1115
@@ -690,7 +690,7 @@ proxy-groups:
   - Japan_Tokyo_trojan_1125
   - Hong Kong_Central_trojan_1126
   - Vietnam_None_ss_1127
-  - Hong Kong_Central_vmess_1128
+  - Hong Kong_Tuen Mun_vmess_1128
   - Hong Kong_Hong Kong_vmess_1129
   - Unknown_reality_0
   - Unknown_reality_3
@@ -708,7 +708,7 @@ proxy-groups:
   - Unknown_hysteria_81
   - Unknown_hysteria_91
   - United States_None_ss_101
-  - Hong Kong_Central_vmess_102
+  - Hong Kong_Tuen Mun_vmess_102
   - Hong Kong_None_ss_103
   - Hong Kong_Central_trojan_104
   - Hong Kong_Sai Wan_trojan_105
@@ -724,7 +724,7 @@ proxy-groups:
   - Japan_Tokyo_trojan_1015
   - Hong Kong_Central_trojan_1016
   - Vietnam_None_ss_1017
-  - Hong Kong_Central_vmess_1018
+  - Hong Kong_Tuen Mun_vmess_1018
   - Hong Kong_Hong Kong_vmess_1019
   - Unknown_vmess_111
   - Unknown_vmess_112
@@ -737,7 +737,7 @@ proxy-groups:
   - Unknown_vmess_119
   - Unknown_vmess_1110
   - United States_None_ss_1111
-  - Hong Kong_Central_vmess_1112
+  - Hong Kong_Tuen Mun_vmess_1112
   - Hong Kong_None_ss_1113
   - Hong Kong_Central_trojan_1114
   - Hong Kong_Sai Wan_trojan_1115
@@ -753,7 +753,7 @@ proxy-groups:
   - Japan_Tokyo_trojan_1125
   - Hong Kong_Central_trojan_1126
   - Vietnam_None_ss_1127
-  - Hong Kong_Central_vmess_1128
+  - Hong Kong_Tuen Mun_vmess_1128
   - Hong Kong_Hong Kong_vmess_1129
   - Unknown_reality_0
   - Unknown_reality_3
@@ -771,7 +771,7 @@ proxy-groups:
   - Unknown_hysteria_81
   - Unknown_hysteria_91
   - United States_None_ss_101
-  - Hong Kong_Central_vmess_102
+  - Hong Kong_Tuen Mun_vmess_102
   - Hong Kong_None_ss_103
   - Hong Kong_Central_trojan_104
   - Hong Kong_Sai Wan_trojan_105
@@ -787,7 +787,7 @@ proxy-groups:
   - Japan_Tokyo_trojan_1015
   - Hong Kong_Central_trojan_1016
   - Vietnam_None_ss_1017
-  - Hong Kong_Central_vmess_1018
+  - Hong Kong_Tuen Mun_vmess_1018
   - Hong Kong_Hong Kong_vmess_1019
   - Unknown_vmess_111
   - Unknown_vmess_112
@@ -800,7 +800,7 @@ proxy-groups:
   - Unknown_vmess_119
   - Unknown_vmess_1110
   - United States_None_ss_1111
-  - Hong Kong_Central_vmess_1112
+  - Hong Kong_Tuen Mun_vmess_1112
   - Hong Kong_None_ss_1113
   - Hong Kong_Central_trojan_1114
   - Hong Kong_Sai Wan_trojan_1115
@@ -816,7 +816,7 @@ proxy-groups:
   - Japan_Tokyo_trojan_1125
   - Hong Kong_Central_trojan_1126
   - Vietnam_None_ss_1127
-  - Hong Kong_Central_vmess_1128
+  - Hong Kong_Tuen Mun_vmess_1128
   - Hong Kong_Hong Kong_vmess_1129
   - Unknown_reality_0
   - Unknown_reality_3
