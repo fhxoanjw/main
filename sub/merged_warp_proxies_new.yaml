@@ -60,7 +60,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Tuen Mun_vmess_102
+  name: Hong Kong_Central_vmess_102
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -184,7 +184,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Tuen Mun_vmess_1018
+  name: Hong Kong_Central_vmess_1018
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -619,7 +619,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Tuen Mun_vmess_1148
+  name: Hong Kong_Central_vmess_1148
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -743,7 +743,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Tuen Mun_vmess_1164
+  name: Hong Kong_Central_vmess_1164
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -784,7 +784,7 @@ proxy-groups:
   tolerance: 50
   proxies:
   - United States_None_ss_101
-  - Hong Kong_Tuen Mun_vmess_102
+  - Hong Kong_Central_vmess_102
   - Hong Kong_Hong Kong_vmess_103
   - Hong Kong_Central_trojan_104
   - Hong Kong_Sai Wan_trojan_105
@@ -800,7 +800,7 @@ proxy-groups:
   - Japan_Tokyo_trojan_1015
   - Japan_Tokyo_trojan_1016
   - Japan_Tokyo_trojan_1017
-  - Hong Kong_Tuen Mun_vmess_1018
+  - Hong Kong_Central_vmess_1018
   - Hong Kong_Hong Kong_vmess_1019
   - Unknown_vmess_111
   - Unknown_vmess_112
@@ -849,7 +849,7 @@ proxy-groups:
   - United Kingdom_None_vmess_1145
   - Singapore_None_vmess_1146
   - United States_None_ss_1147
-  - Hong Kong_Tuen Mun_vmess_1148
+  - Hong Kong_Central_vmess_1148
   - Hong Kong_Hong Kong_vmess_1149
   - Hong Kong_Central_trojan_1150
   - Hong Kong_Sai Wan_trojan_1151
@@ -865,13 +865,13 @@ proxy-groups:
   - Japan_Tokyo_trojan_1161
   - Japan_Tokyo_trojan_1162
   - Japan_Tokyo_trojan_1163
-  - Hong Kong_Tuen Mun_vmess_1164
+  - Hong Kong_Central_vmess_1164
   - Hong Kong_Hong Kong_vmess_1165
 - name: 手动选择
   type: select
   proxies:
   - United States_None_ss_101
-  - Hong Kong_Tuen Mun_vmess_102
+  - Hong Kong_Central_vmess_102
   - Hong Kong_Hong Kong_vmess_103
   - Hong Kong_Central_trojan_104
   - Hong Kong_Sai Wan_trojan_105
@@ -887,7 +887,7 @@ proxy-groups:
   - Japan_Tokyo_trojan_1015
   - Japan_Tokyo_trojan_1016
   - Japan_Tokyo_trojan_1017
-  - Hong Kong_Tuen Mun_vmess_1018
+  - Hong Kong_Central_vmess_1018
   - Hong Kong_Hong Kong_vmess_1019
   - Unknown_vmess_111
   - Unknown_vmess_112
@@ -936,7 +936,7 @@ proxy-groups:
   - United Kingdom_None_vmess_1145
   - Singapore_None_vmess_1146
   - United States_None_ss_1147
-  - Hong Kong_Tuen Mun_vmess_1148
+  - Hong Kong_Central_vmess_1148
   - Hong Kong_Hong Kong_vmess_1149
   - Hong Kong_Central_trojan_1150
   - Hong Kong_Sai Wan_trojan_1151
@@ -952,13 +952,13 @@ proxy-groups:
   - Japan_Tokyo_trojan_1161
   - Japan_Tokyo_trojan_1162
   - Japan_Tokyo_trojan_1163
-  - Hong Kong_Tuen Mun_vmess_1164
+  - Hong Kong_Central_vmess_1164
   - Hong Kong_Hong Kong_vmess_1165
 - name: 负载均衡
   type: load-balance
   proxies:
   - United States_None_ss_101
-  - Hong Kong_Tuen Mun_vmess_102
+  - Hong Kong_Central_vmess_102
   - Hong Kong_Hong Kong_vmess_103
   - Hong Kong_Central_trojan_104
   - Hong Kong_Sai Wan_trojan_105
@@ -974,7 +974,7 @@ proxy-groups:
   - Japan_Tokyo_trojan_1015
   - Japan_Tokyo_trojan_1016
   - Japan_Tokyo_trojan_1017
-  - Hong Kong_Tuen Mun_vmess_1018
+  - Hong Kong_Central_vmess_1018
   - Hong Kong_Hong Kong_vmess_1019
   - Unknown_vmess_111
   - Unknown_vmess_112
@@ -1023,7 +1023,7 @@ proxy-groups:
   - United Kingdom_None_vmess_1145
   - Singapore_None_vmess_1146
   - United States_None_ss_1147
-  - Hong Kong_Tuen Mun_vmess_1148
+  - Hong Kong_Central_vmess_1148
   - Hong Kong_Hong Kong_vmess_1149
   - Hong Kong_Central_trojan_1150
   - Hong Kong_Sai Wan_trojan_1151
@@ -1039,7 +1039,7 @@ proxy-groups:
   - Japan_Tokyo_trojan_1161
   - Japan_Tokyo_trojan_1162
   - Japan_Tokyo_trojan_1163
-  - Hong Kong_Tuen Mun_vmess_1164
+  - Hong Kong_Central_vmess_1164
   - Hong Kong_Hong Kong_vmess_1165
   url: http://www.gstatic.com/generate_204
   interval: 300
