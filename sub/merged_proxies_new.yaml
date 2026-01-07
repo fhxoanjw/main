@@ -73,7 +73,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Man Kok_vmess_102
+  name: Hong Kong_Central_vmess_102
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -193,7 +193,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Man Kok_vmess_1017
+  name: Hong Kong_Central_vmess_1017
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -211,19 +211,6 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: Singapore_Singapore_trojan_1019
-  network: ws
-  password: 97e79a62-f686-4b91-87a7-be39c9e57658
-  port: 443
-  server: 34.143.159.175
-  skip-cert-verify: false
-  sni: page.anjue39.qzz.io
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: page.anjue39.qzz.io
-    path: /
 - alterId: 0
   cipher: auto
   name: Unknown_vmess_111
@@ -322,7 +309,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Man Kok_vmess_1112
+  name: Hong Kong_Central_vmess_1112
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -442,7 +429,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Man Kok_vmess_1127
+  name: Hong Kong_Central_vmess_1127
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -460,19 +447,6 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: Singapore_Singapore_trojan_1129
-  network: ws
-  password: 97e79a62-f686-4b91-87a7-be39c9e57658
-  port: 443
-  server: 34.143.159.175
-  skip-cert-verify: false
-  sni: page.anjue39.qzz.io
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: page.anjue39.qzz.io
-    path: /
 proxy-groups:
 - name: 节点选择
   type: select
@@ -483,7 +457,7 @@ proxy-groups:
   - 手动选择
   - DIRECT
   - United States_None_ss_101
-  - Hong Kong_Man Kok_vmess_102
+  - Hong Kong_Central_vmess_102
   - Hong Kong_Central_vmess_103
   - Hong Kong_Sheung Shui_trojan_104
   - Hong Kong_Sai Wan_trojan_105
@@ -498,9 +472,8 @@ proxy-groups:
   - Japan_Tokyo_trojan_1014
   - Japan_Tokyo_trojan_1015
   - Hong Kong_None_trojan_1016
-  - Hong Kong_Man Kok_vmess_1017
+  - Hong Kong_Central_vmess_1017
   - Hong Kong_Central_vmess_1018
-  - Singapore_Singapore_trojan_1019
   - Unknown_vmess_111
   - Unknown_vmess_112
   - Unknown_vmess_113
@@ -512,7 +485,7 @@ proxy-groups:
   - Unknown_vmess_119
   - Unknown_vmess_1110
   - United States_None_ss_1111
-  - Hong Kong_Man Kok_vmess_1112
+  - Hong Kong_Central_vmess_1112
   - Hong Kong_Central_vmess_1113
   - Hong Kong_Sheung Shui_trojan_1114
   - Hong Kong_Sai Wan_trojan_1115
@@ -527,9 +500,8 @@ proxy-groups:
   - Japan_Tokyo_trojan_1124
   - Japan_Tokyo_trojan_1125
   - Hong Kong_None_trojan_1126
-  - Hong Kong_Man Kok_vmess_1127
+  - Hong Kong_Central_vmess_1127
   - Hong Kong_Central_vmess_1128
-  - Singapore_Singapore_trojan_1129
 - name: WARP前置节点
   type: select
   proxies:
@@ -545,7 +517,7 @@ proxy-groups:
   tolerance: 50
   proxies:
   - United States_None_ss_101
-  - Hong Kong_Man Kok_vmess_102
+  - Hong Kong_Central_vmess_102
   - Hong Kong_Central_vmess_103
   - Hong Kong_Sheung Shui_trojan_104
   - Hong Kong_Sai Wan_trojan_105
@@ -560,9 +532,8 @@ proxy-groups:
   - Japan_Tokyo_trojan_1014
   - Japan_Tokyo_trojan_1015
   - Hong Kong_None_trojan_1016
-  - Hong Kong_Man Kok_vmess_1017
+  - Hong Kong_Central_vmess_1017
   - Hong Kong_Central_vmess_1018
-  - Singapore_Singapore_trojan_1019
   - Unknown_vmess_111
   - Unknown_vmess_112
   - Unknown_vmess_113
@@ -574,7 +545,7 @@ proxy-groups:
   - Unknown_vmess_119
   - Unknown_vmess_1110
   - United States_None_ss_1111
-  - Hong Kong_Man Kok_vmess_1112
+  - Hong Kong_Central_vmess_1112
   - Hong Kong_Central_vmess_1113
   - Hong Kong_Sheung Shui_trojan_1114
   - Hong Kong_Sai Wan_trojan_1115
@@ -589,9 +560,8 @@ proxy-groups:
   - Japan_Tokyo_trojan_1124
   - Japan_Tokyo_trojan_1125
   - Hong Kong_None_trojan_1126
-  - Hong Kong_Man Kok_vmess_1127
+  - Hong Kong_Central_vmess_1127
   - Hong Kong_Central_vmess_1128
-  - Singapore_Singapore_trojan_1129
 - name: 手动选择
   type: select
   proxies: null
