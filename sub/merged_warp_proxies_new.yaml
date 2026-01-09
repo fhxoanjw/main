@@ -60,7 +60,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Kowloon_vmess_102
+  name: Hong Kong_Mid Levels_vmess_102
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -175,7 +175,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Kowloon_vmess_1017
+  name: Hong Kong_Mid Levels_vmess_1017
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -183,22 +183,6 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: Germany_Frankfurt am Main_trojan_1018
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 3.66.94.128
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- name: Germany_Frankfurt am Main_trojan_1019
-  password: telegram-id-directvpn
-  port: 22223
-  server: 3.66.94.128
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   name: Unknown_vmess_111
@@ -297,7 +281,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Kowloon_vmess_1112
+  name: Hong Kong_Mid Levels_vmess_1112
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -412,7 +396,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Kowloon_vmess_1127
+  name: Hong Kong_Mid Levels_vmess_1127
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -420,22 +404,6 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: Germany_Frankfurt am Main_trojan_1128
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 3.66.94.128
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- name: Germany_Frankfurt am Main_trojan_1129
-  password: telegram-id-directvpn
-  port: 22223
-  server: 3.66.94.128
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
 proxy-groups:
 - name: 节点选择
   type: select
@@ -459,7 +427,7 @@ proxy-groups:
   tolerance: 50
   proxies:
   - United States_None_ss_101
-  - Hong Kong_Kowloon_vmess_102
+  - Hong Kong_Mid Levels_vmess_102
   - Hong Kong_Kowloon_trojan_103
   - Hong Kong_Central_trojan_104
   - Japan_Tokyo_trojan_105
@@ -474,9 +442,7 @@ proxy-groups:
   - Japan_Tokyo_trojan_1014
   - Japan_Tokyo_trojan_1015
   - Hong Kong_None_trojan_1016
-  - Hong Kong_Kowloon_vmess_1017
-  - Germany_Frankfurt am Main_trojan_1018
-  - Germany_Frankfurt am Main_trojan_1019
+  - Hong Kong_Mid Levels_vmess_1017
   - Unknown_vmess_111
   - Unknown_vmess_112
   - Unknown_vmess_113
@@ -488,7 +454,7 @@ proxy-groups:
   - Unknown_vmess_119
   - Unknown_vmess_1110
   - United States_None_ss_1111
-  - Hong Kong_Kowloon_vmess_1112
+  - Hong Kong_Mid Levels_vmess_1112
   - Hong Kong_Kowloon_trojan_1113
   - Hong Kong_Central_trojan_1114
   - Japan_Tokyo_trojan_1115
@@ -503,14 +469,12 @@ proxy-groups:
   - Japan_Tokyo_trojan_1124
   - Japan_Tokyo_trojan_1125
   - Hong Kong_None_trojan_1126
-  - Hong Kong_Kowloon_vmess_1127
-  - Germany_Frankfurt am Main_trojan_1128
-  - Germany_Frankfurt am Main_trojan_1129
+  - Hong Kong_Mid Levels_vmess_1127
 - name: 手动选择
   type: select
   proxies:
   - United States_None_ss_101
-  - Hong Kong_Kowloon_vmess_102
+  - Hong Kong_Mid Levels_vmess_102
   - Hong Kong_Kowloon_trojan_103
   - Hong Kong_Central_trojan_104
   - Japan_Tokyo_trojan_105
@@ -525,9 +489,7 @@ proxy-groups:
   - Japan_Tokyo_trojan_1014
   - Japan_Tokyo_trojan_1015
   - Hong Kong_None_trojan_1016
-  - Hong Kong_Kowloon_vmess_1017
-  - Germany_Frankfurt am Main_trojan_1018
-  - Germany_Frankfurt am Main_trojan_1019
+  - Hong Kong_Mid Levels_vmess_1017
   - Unknown_vmess_111
   - Unknown_vmess_112
   - Unknown_vmess_113
@@ -539,7 +501,7 @@ proxy-groups:
   - Unknown_vmess_119
   - Unknown_vmess_1110
   - United States_None_ss_1111
-  - Hong Kong_Kowloon_vmess_1112
+  - Hong Kong_Mid Levels_vmess_1112
   - Hong Kong_Kowloon_trojan_1113
   - Hong Kong_Central_trojan_1114
   - Japan_Tokyo_trojan_1115
@@ -554,14 +516,12 @@ proxy-groups:
   - Japan_Tokyo_trojan_1124
   - Japan_Tokyo_trojan_1125
   - Hong Kong_None_trojan_1126
-  - Hong Kong_Kowloon_vmess_1127
-  - Germany_Frankfurt am Main_trojan_1128
-  - Germany_Frankfurt am Main_trojan_1129
+  - Hong Kong_Mid Levels_vmess_1127
 - name: 负载均衡
   type: load-balance
   proxies:
   - United States_None_ss_101
-  - Hong Kong_Kowloon_vmess_102
+  - Hong Kong_Mid Levels_vmess_102
   - Hong Kong_Kowloon_trojan_103
   - Hong Kong_Central_trojan_104
   - Japan_Tokyo_trojan_105
@@ -576,9 +536,7 @@ proxy-groups:
   - Japan_Tokyo_trojan_1014
   - Japan_Tokyo_trojan_1015
   - Hong Kong_None_trojan_1016
-  - Hong Kong_Kowloon_vmess_1017
-  - Germany_Frankfurt am Main_trojan_1018
-  - Germany_Frankfurt am Main_trojan_1019
+  - Hong Kong_Mid Levels_vmess_1017
   - Unknown_vmess_111
   - Unknown_vmess_112
   - Unknown_vmess_113
@@ -590,7 +548,7 @@ proxy-groups:
   - Unknown_vmess_119
   - Unknown_vmess_1110
   - United States_None_ss_1111
-  - Hong Kong_Kowloon_vmess_1112
+  - Hong Kong_Mid Levels_vmess_1112
   - Hong Kong_Kowloon_trojan_1113
   - Hong Kong_Central_trojan_1114
   - Japan_Tokyo_trojan_1115
@@ -605,9 +563,7 @@ proxy-groups:
   - Japan_Tokyo_trojan_1124
   - Japan_Tokyo_trojan_1125
   - Hong Kong_None_trojan_1126
-  - Hong Kong_Kowloon_vmess_1127
-  - Germany_Frankfurt am Main_trojan_1128
-  - Germany_Frankfurt am Main_trojan_1129
+  - Hong Kong_Mid Levels_vmess_1127
   url: http://www.gstatic.com/generate_204
   interval: 300
   strategy: round-robin
