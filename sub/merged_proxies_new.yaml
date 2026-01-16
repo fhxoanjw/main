@@ -73,7 +73,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_102
+  name: Hong Kong_Yuen Long San Hui_vmess_102
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -205,7 +205,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_1019
+  name: Hong Kong_Yuen Long San Hui_vmess_1019
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -1923,7 +1923,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_11226
+  name: Hong Kong_Yuen Long San Hui_vmess_11226
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -2055,7 +2055,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_11243
+  name: Hong Kong_Yuen Long San Hui_vmess_11243
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -2086,7 +2086,7 @@ proxy-groups:
   - 手动选择
   - DIRECT
   - United States_None_ss_101
-  - Hong Kong_Central_vmess_102
+  - Hong Kong_Yuen Long San Hui_vmess_102
   - Hong Kong_None_ss_103
   - Hong Kong_Sheung Shui_trojan_104
   - Japan_Tokyo_trojan_105
@@ -2103,7 +2103,7 @@ proxy-groups:
   - Japan_Tokyo_trojan_1016
   - Japan_Tokyo_trojan_1017
   - United States_None_trojan_1018
-  - Hong Kong_Central_vmess_1019
+  - Hong Kong_Yuen Long San Hui_vmess_1019
   - China_None_vmess_1020
   - United States_San Francisco_trojan_1021
   - Unknown_vmess_111
@@ -2331,7 +2331,7 @@ proxy-groups:
   - Hong Kong_Central_trojan_11223
   - Hong Kong_Hong Kong_vmess_11224
   - United States_None_ss_11225
-  - Hong Kong_Central_vmess_11226
+  - Hong Kong_Yuen Long San Hui_vmess_11226
   - Hong Kong_None_ss_11227
   - Hong Kong_Sheung Shui_trojan_11228
   - Japan_Tokyo_trojan_11229
@@ -2348,7 +2348,7 @@ proxy-groups:
   - Japan_Tokyo_trojan_11240
   - Japan_Tokyo_trojan_11241
   - United States_None_trojan_11242
-  - Hong Kong_Central_vmess_11243
+  - Hong Kong_Yuen Long San Hui_vmess_11243
   - United States_San Francisco_trojan_11244
 - name: WARP前置节点
   type: select
@@ -2365,7 +2365,7 @@ proxy-groups:
   tolerance: 50
   proxies:
   - United States_None_ss_101
-  - Hong Kong_Central_vmess_102
+  - Hong Kong_Yuen Long San Hui_vmess_102
   - Hong Kong_None_ss_103
   - Hong Kong_Sheung Shui_trojan_104
   - Japan_Tokyo_trojan_105
@@ -2382,7 +2382,7 @@ proxy-groups:
   - Japan_Tokyo_trojan_1016
   - Japan_Tokyo_trojan_1017
   - United States_None_trojan_1018
-  - Hong Kong_Central_vmess_1019
+  - Hong Kong_Yuen Long San Hui_vmess_1019
   - China_None_vmess_1020
   - United States_San Francisco_trojan_1021
   - Unknown_vmess_111
@@ -2610,7 +2610,7 @@ proxy-groups:
   - Hong Kong_Central_trojan_11223
   - Hong Kong_Hong Kong_vmess_11224
   - United States_None_ss_11225
-  - Hong Kong_Central_vmess_11226
+  - Hong Kong_Yuen Long San Hui_vmess_11226
   - Hong Kong_None_ss_11227
   - Hong Kong_Sheung Shui_trojan_11228
   - Japan_Tokyo_trojan_11229
@@ -2627,7 +2627,7 @@ proxy-groups:
   - Japan_Tokyo_trojan_11240
   - Japan_Tokyo_trojan_11241
   - United States_None_trojan_11242
-  - Hong Kong_Central_vmess_11243
+  - Hong Kong_Yuen Long San Hui_vmess_11243
   - United States_San Francisco_trojan_11244
 - name: 手动选择
   type: select
