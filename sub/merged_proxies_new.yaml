@@ -186,12 +186,27 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: The Netherlands_None_trojan_1016
-  password: Pe_dQrCQ4QbnntuVrqHN3dsKhCBpqvxr
+- name: Austria_None_trojan_1016
+  password: fe793ec6-b7a9-4f30-b623-d3c9ca6eb37c
+  port: 19233
+  server: ssr-de-152.rosena.ggff.net
+  skip-cert-verify: true
+  sni: ssr-de-152.rosena.ggff.net
+  type: trojan
+  udp: true
+- name: Hong Kong_Hong Kong_trojan_1017
+  password: 6087d8e3-ea9e-48eb-8217-6050ff752f56
   port: 443
-  server: fi2.nnvpn.io
-  skip-cert-verify: false
-  sni: fi2.nnvpn.io
+  server: il.mjt000.com
+  skip-cert-verify: true
+  sni: il.mjt000.com
+  type: trojan
+  udp: true
+- name: Hong Kong_Hong Kong_trojan_1018
+  password: 6087d8e3-ea9e-48eb-8217-6050ff752f56
+  port: 443
+  server: il.mjt000.com
+  skip-cert-verify: true
   type: trojan
   udp: true
 - alterId: 0
@@ -419,7 +434,7 @@ proxies:
     headers:
       Host: 17691448614949.206355.xyz
     path: '%2Fvideomuaawe'
-- name: None_None_trojan_1128
+- name: United States_San Francisco_trojan_1128
   network: ws
   password: 2c6bd338-237b-42f2-bf90-9fc3be812e82
   port: 2087
@@ -431,7 +446,7 @@ proxies:
     headers:
       Host: 17691448614632.206355.xyz
     path: '%2Fvideomuaawe'
-- name: None_None_trojan_1129
+- name: United States_San Francisco_trojan_1129
   network: ws
   password: 2c6bd338-237b-42f2-bf90-9fc3be812e82
   port: 2087
@@ -455,7 +470,7 @@ proxies:
     headers:
       Host: 17691448612606.206355.xyz
     path: '%2Fvideomuaawe'
-- name: United States_San Francisco_trojan_1131
+- name: None_None_trojan_1131
   network: ws
   password: 2c6bd338-237b-42f2-bf90-9fc3be812e82
   port: 8443
@@ -467,7 +482,7 @@ proxies:
     headers:
       Host: 17691448619863.206355.xyz
     path: '%2Fvideomuaawe'
-- name: United States_San Francisco_trojan_1132
+- name: None_None_trojan_1132
   network: ws
   password: 2c6bd338-237b-42f2-bf90-9fc3be812e82
   port: 8443
@@ -479,7 +494,7 @@ proxies:
     headers:
       Host: 17691448614730.206355.xyz
     path: '%2Fvideomuaawe'
-- name: None_None_trojan_1133
+- name: United States_San Francisco_trojan_1133
   network: ws
   password: 2c6bd338-237b-42f2-bf90-9fc3be812e82
   port: 2053
@@ -599,7 +614,7 @@ proxies:
     headers:
       Host: 17691448616698.206355.xyz
     path: '%2Fvideomuaawe'
-- name: United States_None_trojan_1143
+- name: None_None_trojan_1143
   network: ws
   password: 2c6bd338-237b-42f2-bf90-9fc3be812e82
   port: 2096
@@ -611,7 +626,7 @@ proxies:
     headers:
       Host: 17691448619534.206352.xyz
     path: '%2Fagraeabtegrrh'
-- name: United States_None_trojan_1144
+- name: None_None_trojan_1144
   network: ws
   password: 2c6bd338-237b-42f2-bf90-9fc3be812e82
   port: 8443
@@ -635,7 +650,7 @@ proxies:
     headers:
       Host: 17691448615055.206355.xyz
     path: '%2Fvideomuaawe'
-- name: United States_None_trojan_1146
+- name: None_None_trojan_1146
   network: ws
   password: 2c6bd338-237b-42f2-bf90-9fc3be812e82
   port: 8443
@@ -647,7 +662,7 @@ proxies:
     headers:
       Host: 17691448613248.206352.xyz
     path: '%2Fagraeabtegrrh'
-- name: United States_None_trojan_1147
+- name: None_None_trojan_1147
   network: ws
   password: 2c6bd338-237b-42f2-bf90-9fc3be812e82
   port: 2053
@@ -659,7 +674,7 @@ proxies:
     headers:
       Host: 17691448615813.206353.xyz
     path: '%2Fagrbniuh'
-- name: United States_None_trojan_1148
+- name: None_None_trojan_1148
   network: ws
   password: 2c6bd338-237b-42f2-bf90-9fc3be812e82
   port: 8443
@@ -1632,12 +1647,27 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: The Netherlands_None_trojan_11175
-  password: Pe_dQrCQ4QbnntuVrqHN3dsKhCBpqvxr
+- name: Austria_None_trojan_11175
+  password: fe793ec6-b7a9-4f30-b623-d3c9ca6eb37c
+  port: 19233
+  server: ssr-de-152.rosena.ggff.net
+  skip-cert-verify: true
+  sni: ssr-de-152.rosena.ggff.net
+  type: trojan
+  udp: true
+- name: Hong Kong_Hong Kong_trojan_11176
+  password: 6087d8e3-ea9e-48eb-8217-6050ff752f56
   port: 443
-  server: fi2.nnvpn.io
-  skip-cert-verify: false
-  sni: fi2.nnvpn.io
+  server: il.mjt000.com
+  skip-cert-verify: true
+  sni: il.mjt000.com
+  type: trojan
+  udp: true
+- name: Hong Kong_Hong Kong_trojan_11177
+  password: 6087d8e3-ea9e-48eb-8217-6050ff752f56
+  port: 443
+  server: il.mjt000.com
+  skip-cert-verify: true
   type: trojan
   udp: true
 proxy-groups:
@@ -1664,7 +1694,9 @@ proxy-groups:
   - Japan_Tokyo_trojan_1013
   - Hong Kong_None_trojan_1014
   - Hong Kong_Tuen Mun_vmess_1015
-  - The Netherlands_None_trojan_1016
+  - Austria_None_trojan_1016
+  - Hong Kong_Hong Kong_trojan_1017
+  - Hong Kong_Hong Kong_trojan_1018
   - Unknown_vmess_111
   - Unknown_vmess_112
   - Unknown_vmess_113
@@ -1692,12 +1724,12 @@ proxy-groups:
   - Hong Kong_Sai Wan_trojan_1125
   - United States_San Francisco_trojan_1126
   - None_None_trojan_1127
-  - None_None_trojan_1128
-  - None_None_trojan_1129
+  - United States_San Francisco_trojan_1128
+  - United States_San Francisco_trojan_1129
   - United States_San Francisco_trojan_1130
-  - United States_San Francisco_trojan_1131
-  - United States_San Francisco_trojan_1132
-  - None_None_trojan_1133
+  - None_None_trojan_1131
+  - None_None_trojan_1132
+  - United States_San Francisco_trojan_1133
   - None_None_trojan_1134
   - None_None_trojan_1135
   - None_None_trojan_1136
@@ -1707,12 +1739,12 @@ proxy-groups:
   - None_None_trojan_1140
   - None_None_trojan_1141
   - None_None_trojan_1142
-  - United States_None_trojan_1143
-  - United States_None_trojan_1144
+  - None_None_trojan_1143
+  - None_None_trojan_1144
   - None_None_trojan_1145
-  - United States_None_trojan_1146
-  - United States_None_trojan_1147
-  - United States_None_trojan_1148
+  - None_None_trojan_1146
+  - None_None_trojan_1147
+  - None_None_trojan_1148
   - Taiwan_Chiayi City_trojan_1149
   - Taiwan_Chiayi City_trojan_1150
   - Taiwan_Chiayi City_trojan_1151
@@ -1839,7 +1871,9 @@ proxy-groups:
   - Japan_Tokyo_trojan_11172
   - Hong Kong_None_trojan_11173
   - Hong Kong_Tuen Mun_vmess_11174
-  - The Netherlands_None_trojan_11175
+  - Austria_None_trojan_11175
+  - Hong Kong_Hong Kong_trojan_11176
+  - Hong Kong_Hong Kong_trojan_11177
 - name: WARP前置节点
   type: select
   proxies:
@@ -1869,7 +1903,9 @@ proxy-groups:
   - Japan_Tokyo_trojan_1013
   - Hong Kong_None_trojan_1014
   - Hong Kong_Tuen Mun_vmess_1015
-  - The Netherlands_None_trojan_1016
+  - Austria_None_trojan_1016
+  - Hong Kong_Hong Kong_trojan_1017
+  - Hong Kong_Hong Kong_trojan_1018
   - Unknown_vmess_111
   - Unknown_vmess_112
   - Unknown_vmess_113
@@ -1897,12 +1933,12 @@ proxy-groups:
   - Hong Kong_Sai Wan_trojan_1125
   - United States_San Francisco_trojan_1126
   - None_None_trojan_1127
-  - None_None_trojan_1128
-  - None_None_trojan_1129
+  - United States_San Francisco_trojan_1128
+  - United States_San Francisco_trojan_1129
   - United States_San Francisco_trojan_1130
-  - United States_San Francisco_trojan_1131
-  - United States_San Francisco_trojan_1132
-  - None_None_trojan_1133
+  - None_None_trojan_1131
+  - None_None_trojan_1132
+  - United States_San Francisco_trojan_1133
   - None_None_trojan_1134
   - None_None_trojan_1135
   - None_None_trojan_1136
@@ -1912,12 +1948,12 @@ proxy-groups:
   - None_None_trojan_1140
   - None_None_trojan_1141
   - None_None_trojan_1142
-  - United States_None_trojan_1143
-  - United States_None_trojan_1144
+  - None_None_trojan_1143
+  - None_None_trojan_1144
   - None_None_trojan_1145
-  - United States_None_trojan_1146
-  - United States_None_trojan_1147
-  - United States_None_trojan_1148
+  - None_None_trojan_1146
+  - None_None_trojan_1147
+  - None_None_trojan_1148
   - Taiwan_Chiayi City_trojan_1149
   - Taiwan_Chiayi City_trojan_1150
   - Taiwan_Chiayi City_trojan_1151
@@ -2044,7 +2080,9 @@ proxy-groups:
   - Japan_Tokyo_trojan_11172
   - Hong Kong_None_trojan_11173
   - Hong Kong_Tuen Mun_vmess_11174
-  - The Netherlands_None_trojan_11175
+  - Austria_None_trojan_11175
+  - Hong Kong_Hong Kong_trojan_11176
+  - Hong Kong_Hong Kong_trojan_11177
 - name: 手动选择
   type: select
   proxies: null
