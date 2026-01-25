@@ -186,14 +186,6 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: Hong Kong_Tsim Sha Tsui_trojan_1016
-  password: BxceQaOe
-  port: 443
-  server: 219.76.135.98
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   name: Unknown_vmess_111
@@ -353,7 +345,7 @@ proxies:
     headers:
       Host: 17693237224653.206355.xyz
     path: '%2Fvideomuaawe'
-- name: United States_San Francisco_trojan_1119
+- name: None_None_trojan_1119
   network: ws
   password: 80bdaa23-8f65-44c4-9932-070d8bc60b13
   port: 2087
@@ -365,7 +357,7 @@ proxies:
     headers:
       Host: 17693237229188.206355.xyz
     path: '%2Fvideomuaawe'
-- name: United States_San Francisco_trojan_1120
+- name: None_None_trojan_1120
   network: ws
   password: 80bdaa23-8f65-44c4-9932-070d8bc60b13
   port: 2087
@@ -377,7 +369,7 @@ proxies:
     headers:
       Host: 17693237222811.206355.xyz
     path: '%2Fvideomuaawe'
-- name: United States_San Francisco_trojan_1121
+- name: None_None_trojan_1121
   network: ws
   password: 80bdaa23-8f65-44c4-9932-070d8bc60b13
   port: 2087
@@ -401,7 +393,7 @@ proxies:
     headers:
       Host: 17693237224807.206355.xyz
     path: '%2Fvideomuaawe'
-- name: None_None_trojan_1123
+- name: United States_San Francisco_trojan_1123
   network: ws
   password: 80bdaa23-8f65-44c4-9932-070d8bc60b13
   port: 8443
@@ -589,7 +581,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_1145
+  name: China_None_vmess_1145
   network: tcp
   port: '30824'
   server: v24.hdacd.com
@@ -717,14 +709,6 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: Hong Kong_Tsim Sha Tsui_trojan_1161
-  password: BxceQaOe
-  port: 443
-  server: 219.76.135.98
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
 proxy-groups:
 - name: 节点选择
   type: select
@@ -749,7 +733,6 @@ proxy-groups:
   - Japan_Tokyo_trojan_1013
   - Hong Kong_None_trojan_1014
   - Hong Kong_Wong Tai Sin_vmess_1015
-  - Hong Kong_Tsim Sha Tsui_trojan_1016
   - Unknown_vmess_111
   - Unknown_vmess_112
   - Unknown_vmess_113
@@ -768,11 +751,11 @@ proxy-groups:
   - Hong Kong_Tsim Sha Tsui_trojan_1116
   - Hong Kong_Central_vmess_1117
   - United States_San Francisco_trojan_1118
-  - United States_San Francisco_trojan_1119
-  - United States_San Francisco_trojan_1120
-  - United States_San Francisco_trojan_1121
+  - None_None_trojan_1119
+  - None_None_trojan_1120
+  - None_None_trojan_1121
   - United States_San Francisco_trojan_1122
-  - None_None_trojan_1123
+  - United States_San Francisco_trojan_1123
   - None_None_trojan_1124
   - None_None_trojan_1125
   - None_None_trojan_1126
@@ -794,7 +777,7 @@ proxy-groups:
   - Taiwan_Chiayi City_trojan_1142
   - Taiwan_Chiayi City_trojan_1143
   - Taiwan_Chiayi City_trojan_1144
-  - Hong Kong_Central_vmess_1145
+  - China_None_vmess_1145
   - United States_None_ss_1146
   - Hong Kong_Wong Tai Sin_vmess_1147
   - Hong Kong_Sheung Shui_trojan_1148
@@ -810,7 +793,6 @@ proxy-groups:
   - Japan_Tokyo_trojan_1158
   - Hong Kong_None_trojan_1159
   - Hong Kong_Wong Tai Sin_vmess_1160
-  - Hong Kong_Tsim Sha Tsui_trojan_1161
 - name: WARP前置节点
   type: select
   proxies:
@@ -840,7 +822,6 @@ proxy-groups:
   - Japan_Tokyo_trojan_1013
   - Hong Kong_None_trojan_1014
   - Hong Kong_Wong Tai Sin_vmess_1015
-  - Hong Kong_Tsim Sha Tsui_trojan_1016
   - Unknown_vmess_111
   - Unknown_vmess_112
   - Unknown_vmess_113
@@ -859,11 +840,11 @@ proxy-groups:
   - Hong Kong_Tsim Sha Tsui_trojan_1116
   - Hong Kong_Central_vmess_1117
   - United States_San Francisco_trojan_1118
-  - United States_San Francisco_trojan_1119
-  - United States_San Francisco_trojan_1120
-  - United States_San Francisco_trojan_1121
+  - None_None_trojan_1119
+  - None_None_trojan_1120
+  - None_None_trojan_1121
   - United States_San Francisco_trojan_1122
-  - None_None_trojan_1123
+  - United States_San Francisco_trojan_1123
   - None_None_trojan_1124
   - None_None_trojan_1125
   - None_None_trojan_1126
@@ -885,7 +866,7 @@ proxy-groups:
   - Taiwan_Chiayi City_trojan_1142
   - Taiwan_Chiayi City_trojan_1143
   - Taiwan_Chiayi City_trojan_1144
-  - Hong Kong_Central_vmess_1145
+  - China_None_vmess_1145
   - United States_None_ss_1146
   - Hong Kong_Wong Tai Sin_vmess_1147
   - Hong Kong_Sheung Shui_trojan_1148
@@ -901,7 +882,6 @@ proxy-groups:
   - Japan_Tokyo_trojan_1158
   - Hong Kong_None_trojan_1159
   - Hong Kong_Wong Tai Sin_vmess_1160
-  - Hong Kong_Tsim Sha Tsui_trojan_1161
 - name: 手动选择
   type: select
   proxies: null
