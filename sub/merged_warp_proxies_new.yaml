@@ -60,7 +60,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_102
+  name: Hong Kong_Tuen Mun_vmess_102
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -171,7 +171,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_1016
+  name: Hong Kong_Tuen Mun_vmess_1016
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -356,7 +356,7 @@ proxies:
     headers:
       Host: 17698512164336.682637.xyz
     path: '%2Fahyrtuyjykl'
-- name: United States_None_trojan_1121
+- name: None_None_trojan_1121
   network: ws
   password: 056b39f5-ffb3-4145-8f75-2ffdeb53cb48
   port: 2083
@@ -589,7 +589,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_1149
+  name: Hong Kong_Tuen Mun_vmess_1149
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -700,7 +700,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_1163
+  name: Hong Kong_Tuen Mun_vmess_1163
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -739,7 +739,7 @@ proxy-groups:
   tolerance: 50
   proxies:
   - United States_None_ss_101
-  - Hong Kong_Central_vmess_102
+  - Hong Kong_Tuen Mun_vmess_102
   - Hong Kong_Central_trojan_103
   - United States_None_trojan_104
   - Japan_Tokyo_trojan_105
@@ -753,7 +753,7 @@ proxy-groups:
   - The Netherlands_Meppel_trojan_1013
   - Japan_Tokyo_trojan_1014
   - South Korea_Dongjak-gu_ss_1015
-  - Hong Kong_Central_vmess_1016
+  - Hong Kong_Tuen Mun_vmess_1016
   - India_Mumbai_trojan_1017
   - Unknown_vmess_111
   - Unknown_vmess_112
@@ -775,7 +775,7 @@ proxy-groups:
   - Hong Kong_Tsim Sha Tsui_trojan_1118
   - Hong Kong_Tsim Sha Tsui_trojan_1119
   - None_None_trojan_1120
-  - United States_None_trojan_1121
+  - None_None_trojan_1121
   - Taiwan_Chiayi City_trojan_1122
   - Taiwan_Chiayi City_trojan_1123
   - Taiwan_Chiayi City_trojan_1124
@@ -803,7 +803,7 @@ proxy-groups:
   - China_None_vmess_1146
   - China_None_vmess_1147
   - United States_None_ss_1148
-  - Hong Kong_Central_vmess_1149
+  - Hong Kong_Tuen Mun_vmess_1149
   - Hong Kong_Central_trojan_1150
   - United States_None_trojan_1151
   - Japan_Tokyo_trojan_1152
@@ -817,13 +817,13 @@ proxy-groups:
   - The Netherlands_Meppel_trojan_1160
   - Japan_Tokyo_trojan_1161
   - South Korea_Dongjak-gu_ss_1162
-  - Hong Kong_Central_vmess_1163
+  - Hong Kong_Tuen Mun_vmess_1163
   - India_Mumbai_trojan_1164
 - name: 手动选择
   type: select
   proxies:
   - United States_None_ss_101
-  - Hong Kong_Central_vmess_102
+  - Hong Kong_Tuen Mun_vmess_102
   - Hong Kong_Central_trojan_103
   - United States_None_trojan_104
   - Japan_Tokyo_trojan_105
@@ -837,7 +837,7 @@ proxy-groups:
   - The Netherlands_Meppel_trojan_1013
   - Japan_Tokyo_trojan_1014
   - South Korea_Dongjak-gu_ss_1015
-  - Hong Kong_Central_vmess_1016
+  - Hong Kong_Tuen Mun_vmess_1016
   - India_Mumbai_trojan_1017
   - Unknown_vmess_111
   - Unknown_vmess_112
@@ -859,7 +859,7 @@ proxy-groups:
   - Hong Kong_Tsim Sha Tsui_trojan_1118
   - Hong Kong_Tsim Sha Tsui_trojan_1119
   - None_None_trojan_1120
-  - United States_None_trojan_1121
+  - None_None_trojan_1121
   - Taiwan_Chiayi City_trojan_1122
   - Taiwan_Chiayi City_trojan_1123
   - Taiwan_Chiayi City_trojan_1124
@@ -887,7 +887,7 @@ proxy-groups:
   - China_None_vmess_1146
   - China_None_vmess_1147
   - United States_None_ss_1148
-  - Hong Kong_Central_vmess_1149
+  - Hong Kong_Tuen Mun_vmess_1149
   - Hong Kong_Central_trojan_1150
   - United States_None_trojan_1151
   - Japan_Tokyo_trojan_1152
@@ -901,13 +901,13 @@ proxy-groups:
   - The Netherlands_Meppel_trojan_1160
   - Japan_Tokyo_trojan_1161
   - South Korea_Dongjak-gu_ss_1162
-  - Hong Kong_Central_vmess_1163
+  - Hong Kong_Tuen Mun_vmess_1163
   - India_Mumbai_trojan_1164
 - name: 负载均衡
   type: load-balance
   proxies:
   - United States_None_ss_101
-  - Hong Kong_Central_vmess_102
+  - Hong Kong_Tuen Mun_vmess_102
   - Hong Kong_Central_trojan_103
   - United States_None_trojan_104
   - Japan_Tokyo_trojan_105
@@ -921,7 +921,7 @@ proxy-groups:
   - The Netherlands_Meppel_trojan_1013
   - Japan_Tokyo_trojan_1014
   - South Korea_Dongjak-gu_ss_1015
-  - Hong Kong_Central_vmess_1016
+  - Hong Kong_Tuen Mun_vmess_1016
   - India_Mumbai_trojan_1017
   - Unknown_vmess_111
   - Unknown_vmess_112
@@ -943,7 +943,7 @@ proxy-groups:
   - Hong Kong_Tsim Sha Tsui_trojan_1118
   - Hong Kong_Tsim Sha Tsui_trojan_1119
   - None_None_trojan_1120
-  - United States_None_trojan_1121
+  - None_None_trojan_1121
   - Taiwan_Chiayi City_trojan_1122
   - Taiwan_Chiayi City_trojan_1123
   - Taiwan_Chiayi City_trojan_1124
@@ -971,7 +971,7 @@ proxy-groups:
   - China_None_vmess_1146
   - China_None_vmess_1147
   - United States_None_ss_1148
-  - Hong Kong_Central_vmess_1149
+  - Hong Kong_Tuen Mun_vmess_1149
   - Hong Kong_Central_trojan_1150
   - United States_None_trojan_1151
   - Japan_Tokyo_trojan_1152
@@ -985,7 +985,7 @@ proxy-groups:
   - The Netherlands_Meppel_trojan_1160
   - Japan_Tokyo_trojan_1161
   - South Korea_Dongjak-gu_ss_1162
-  - Hong Kong_Central_vmess_1163
+  - Hong Kong_Tuen Mun_vmess_1163
   - India_Mumbai_trojan_1164
   url: http://www.gstatic.com/generate_204
   interval: 300
