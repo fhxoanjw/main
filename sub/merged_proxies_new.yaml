@@ -446,7 +446,7 @@ proxies:
     headers:
       Host: 17708924951357.682637.xyz
     path: '%2Fahyrtuyjykl'
-- name: United States_San Francisco_trojan_1130
+- name: None_None_trojan_1130
   network: ws
   password: 42714fa2-595c-4993-8b9b-83081e51c076
   port: 2087
@@ -506,7 +506,7 @@ proxies:
     headers:
       Host: 17708924951567.682637.xyz
     path: '%2Fahyrtuyjykl'
-- name: None_None_trojan_1135
+- name: United States_San Francisco_trojan_1135
   network: ws
   password: 42714fa2-595c-4993-8b9b-83081e51c076
   port: 8443
@@ -746,7 +746,7 @@ proxies:
     headers:
       Host: 17708924954898.206353.xyz
     path: '%2Fagrbniuh'
-- name: None_None_trojan_1155
+- name: United States_None_trojan_1155
   network: ws
   password: 42714fa2-595c-4993-8b9b-83081e51c076
   port: 8443
@@ -1109,12 +1109,12 @@ proxy-groups:
   - China_None_vmess_1127
   - United States_None_vmess_1128
   - United States_San Francisco_trojan_1129
-  - United States_San Francisco_trojan_1130
+  - None_None_trojan_1130
   - United States_San Francisco_trojan_1131
   - United States_San Francisco_trojan_1132
   - None_None_trojan_1133
   - United States_San Francisco_trojan_1134
-  - None_None_trojan_1135
+  - United States_San Francisco_trojan_1135
   - None_None_trojan_1136
   - None_None_trojan_1137
   - None_None_trojan_1138
@@ -1134,7 +1134,7 @@ proxy-groups:
   - None_None_trojan_1152
   - United States_None_trojan_1153
   - None_None_trojan_1154
-  - None_None_trojan_1155
+  - United States_None_trojan_1155
   - None_None_trojan_1156
   - Taiwan_Chiayi City_trojan_1157
   - Unknown_vmess_1158
@@ -1227,12 +1227,12 @@ proxy-groups:
   - China_None_vmess_1127
   - United States_None_vmess_1128
   - United States_San Francisco_trojan_1129
-  - United States_San Francisco_trojan_1130
+  - None_None_trojan_1130
   - United States_San Francisco_trojan_1131
   - United States_San Francisco_trojan_1132
   - None_None_trojan_1133
   - United States_San Francisco_trojan_1134
-  - None_None_trojan_1135
+  - United States_San Francisco_trojan_1135
   - None_None_trojan_1136
   - None_None_trojan_1137
   - None_None_trojan_1138
@@ -1252,7 +1252,7 @@ proxy-groups:
   - None_None_trojan_1152
   - United States_None_trojan_1153
   - None_None_trojan_1154
-  - None_None_trojan_1155
+  - United States_None_trojan_1155
   - None_None_trojan_1156
   - Taiwan_Chiayi City_trojan_1157
   - Unknown_vmess_1158
