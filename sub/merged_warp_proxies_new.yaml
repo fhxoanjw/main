@@ -338,7 +338,7 @@ proxies:
     headers:
       Host: 17720002268705.682637.xyz
     path: '%2Fahyrtuyjykl'
-- name: None_None_trojan_1116
+- name: United States_San Francisco_trojan_1116
   network: ws
   password: 8be1f222-92fc-4e84-a6e9-26c74713e3d3
   port: 2087
@@ -350,7 +350,7 @@ proxies:
     headers:
       Host: 17720002267647.682637.xyz
     path: '%2Fahyrtuyjykl'
-- name: None_None_trojan_1117
+- name: United States_San Francisco_trojan_1117
   network: ws
   password: 8be1f222-92fc-4e84-a6e9-26c74713e3d3
   port: 2087
@@ -362,7 +362,7 @@ proxies:
     headers:
       Host: 17720002269151.682637.xyz
     path: '%2Fahyrtuyjykl'
-- name: None_None_trojan_1118
+- name: United States_San Francisco_trojan_1118
   network: ws
   password: 8be1f222-92fc-4e84-a6e9-26c74713e3d3
   port: 2096
@@ -386,7 +386,7 @@ proxies:
     headers:
       Host: 17720002265061.682637.xyz
     path: '%2Fahyrtuyjykl'
-- name: United States_San Francisco_trojan_1120
+- name: None_None_trojan_1120
   network: ws
   password: 8be1f222-92fc-4e84-a6e9-26c74713e3d3
   port: 2053
@@ -578,7 +578,7 @@ proxies:
     headers:
       Host: 17720002267750.168381.xyz
     path: '%2Ftianboephth'
-- name: United States_None_trojan_1136
+- name: None_None_trojan_1136
   network: ws
   password: 8be1f222-92fc-4e84-a6e9-26c74713e3d3
   port: 2096
@@ -602,7 +602,7 @@ proxies:
     headers:
       Host: 17720002261418.206353.xyz
     path: '%2Fagrbniuh'
-- name: United States_None_trojan_1138
+- name: None_None_trojan_1138
   network: ws
   password: 8be1f222-92fc-4e84-a6e9-26c74713e3d3
   port: 2083
@@ -614,7 +614,7 @@ proxies:
     headers:
       Host: 17720002269748.206355.xyz
     path: '%2Fvideomuaawe'
-- name: None_None_trojan_1139
+- name: United States_None_trojan_1139
   network: ws
   password: 8be1f222-92fc-4e84-a6e9-26c74713e3d3
   port: 2083
@@ -1158,7 +1158,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: None_None_vmess_1186
+  name: United States_None_vmess_1186
   network: ws
   port: '443'
   server: sy4.620720.xyz
@@ -1239,8 +1239,8 @@ proxies:
 - name: Japan_Tokyo_trojan_1194
   network: tcp
   password: 262f1d150049457ac1d6e66b020fa980
-  port: 4856
-  server: 13.114.51.135
+  port: 2255
+  server: 13.231.143.120
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -1248,31 +1248,31 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 504
-  server: 16.162.118.238
+  server: 43.198.101.173
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: Hong Kong_None_trojan_1196
+- name: Japan_Tokyo_trojan_1196
   network: tcp
   password: BxceQaOe
-  port: 3292
-  server: 43.198.185.201
+  port: 445
+  server: 13.115.229.23
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: Japan_Tokyo_trojan_1197
   network: tcp
   password: BxceQaOe
-  port: 2595
-  server: 3.112.214.167
+  port: 26378
+  server: 13.231.58.134
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: Japan_Tokyo_trojan_1198
   network: tcp
   password: 262f1d150049457ac1d6e66b020fa980
-  port: 193
-  server: 160.16.138.24
+  port: 400
+  server: 160.16.231.103
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -1280,23 +1280,23 @@ proxies:
   network: tcp
   password: 262f1d150049457ac1d6e66b020fa980
   port: 3423
-  server: 43.207.87.46
+  server: 54.250.241.85
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: Japan_Tokyo_trojan_11100
+- name: Japan_None_trojan_11100
   network: tcp
   password: 262f1d150049457ac1d6e66b020fa980
-  port: 3901
-  server: 57.181.39.159
+  port: 3419
+  server: 153.121.65.107
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: Japan_Tokyo_trojan_11101
   network: tcp
   password: 262f1d150049457ac1d6e66b020fa980
-  port: 3419
-  server: 160.16.85.33
+  port: 3901
+  server: 35.77.90.248
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -1304,46 +1304,55 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 52951
-  server: 43.198.17.4
+  server: 16.163.102.116
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: Japan_Tokyo_trojan_11103
-  network: tcp
-  password: 262f1d150049457ac1d6e66b020fa980
-  port: 1281
-  server: 160.16.68.250
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: Japan_Tokyo_trojan_11104
+- name: Japan_None_trojan_11103
   network: tcp
   password: 262f1d150049457ac1d6e66b020fa980
   port: 4920
-  server: 13.231.123.180
+  server: 153.121.65.107
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: Japan_None_trojan_11104
+  network: tcp
+  password: 262f1d150049457ac1d6e66b020fa980
+  port: 1281
+  server: 153.121.65.107
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: Hong Kong_None_trojan_11105
   network: tcp
   password: BxceQaOe
-  port: 45285
-  server: 16.162.118.238
+  port: 45947
+  server: 43.198.101.173
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - alterId: 0
   cipher: auto
   name: China_None_vmess_11106
-  port: 11929
-  server: board-01.ddnskunlun.com
+  port: 9027
+  server: select-us.ddnskunlun.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
+- alterId: 0
+  cipher: auto
+  name: China_None_vmess_11107
+  port: 11885
+  server: board-02.ddnskunlun.com
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Tuen Mun_vmess_11107
+  name: Hong Kong_Tuen Mun_vmess_11108
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -1353,10 +1362,20 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: China_None_vmess_11108
+  name: China_None_vmess_11109
   network: tcp
-  port: '11929'
-  server: board-01.ddnskunlun.com
+  port: '9027'
+  server: select-us.ddnskunlun.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
+- alterId: 0
+  cipher: auto
+  name: China_None_vmess_11110
+  network: tcp
+  port: '11885'
+  server: board-02.ddnskunlun.com
   servername: ''
   tls: false
   type: vmess
@@ -1415,11 +1434,11 @@ proxy-groups:
   - United States_None_vmess_1113
   - United Kingdom_None_vmess_1114
   - None_None_trojan_1115
-  - None_None_trojan_1116
-  - None_None_trojan_1117
-  - None_None_trojan_1118
+  - United States_San Francisco_trojan_1116
+  - United States_San Francisco_trojan_1117
+  - United States_San Francisco_trojan_1118
   - None_None_trojan_1119
-  - United States_San Francisco_trojan_1120
+  - None_None_trojan_1120
   - None_None_trojan_1121
   - None_None_trojan_1122
   - None_None_trojan_1123
@@ -1435,10 +1454,10 @@ proxy-groups:
   - None_None_trojan_1133
   - None_None_trojan_1134
   - None_None_trojan_1135
-  - United States_None_trojan_1136
+  - None_None_trojan_1136
   - None_None_trojan_1137
-  - United States_None_trojan_1138
-  - None_None_trojan_1139
+  - None_None_trojan_1138
+  - United States_None_trojan_1139
   - None_None_trojan_1140
   - United States_None_trojan_1141
   - China_None_trojan_1142
@@ -1485,7 +1504,7 @@ proxy-groups:
   - None_None_vmess_1183
   - None_None_vmess_1184
   - Hong Kong_Sha Tin Wai_vmess_1185
-  - None_None_vmess_1186
+  - United States_None_vmess_1186
   - None_None_vmess_1187
   - Hong Kong_Sha Tin Wai_vmess_1188
   - France_None_trojan_1189
@@ -1495,19 +1514,21 @@ proxy-groups:
   - Hong Kong_Tuen Mun_vmess_1193
   - Japan_Tokyo_trojan_1194
   - Hong Kong_None_trojan_1195
-  - Hong Kong_None_trojan_1196
+  - Japan_Tokyo_trojan_1196
   - Japan_Tokyo_trojan_1197
   - Japan_Tokyo_trojan_1198
   - Japan_Tokyo_trojan_1199
-  - Japan_Tokyo_trojan_11100
+  - Japan_None_trojan_11100
   - Japan_Tokyo_trojan_11101
   - Hong Kong_None_trojan_11102
-  - Japan_Tokyo_trojan_11103
-  - Japan_Tokyo_trojan_11104
+  - Japan_None_trojan_11103
+  - Japan_None_trojan_11104
   - Hong Kong_None_trojan_11105
   - China_None_vmess_11106
-  - Hong Kong_Tuen Mun_vmess_11107
-  - China_None_vmess_11108
+  - China_None_vmess_11107
+  - Hong Kong_Tuen Mun_vmess_11108
+  - China_None_vmess_11109
+  - China_None_vmess_11110
 - name: 手动选择
   type: select
   proxies:
@@ -1543,11 +1564,11 @@ proxy-groups:
   - United States_None_vmess_1113
   - United Kingdom_None_vmess_1114
   - None_None_trojan_1115
-  - None_None_trojan_1116
-  - None_None_trojan_1117
-  - None_None_trojan_1118
+  - United States_San Francisco_trojan_1116
+  - United States_San Francisco_trojan_1117
+  - United States_San Francisco_trojan_1118
   - None_None_trojan_1119
-  - United States_San Francisco_trojan_1120
+  - None_None_trojan_1120
   - None_None_trojan_1121
   - None_None_trojan_1122
   - None_None_trojan_1123
@@ -1563,10 +1584,10 @@ proxy-groups:
   - None_None_trojan_1133
   - None_None_trojan_1134
   - None_None_trojan_1135
-  - United States_None_trojan_1136
+  - None_None_trojan_1136
   - None_None_trojan_1137
-  - United States_None_trojan_1138
-  - None_None_trojan_1139
+  - None_None_trojan_1138
+  - United States_None_trojan_1139
   - None_None_trojan_1140
   - United States_None_trojan_1141
   - China_None_trojan_1142
@@ -1613,7 +1634,7 @@ proxy-groups:
   - None_None_vmess_1183
   - None_None_vmess_1184
   - Hong Kong_Sha Tin Wai_vmess_1185
-  - None_None_vmess_1186
+  - United States_None_vmess_1186
   - None_None_vmess_1187
   - Hong Kong_Sha Tin Wai_vmess_1188
   - France_None_trojan_1189
@@ -1623,19 +1644,21 @@ proxy-groups:
   - Hong Kong_Tuen Mun_vmess_1193
   - Japan_Tokyo_trojan_1194
   - Hong Kong_None_trojan_1195
-  - Hong Kong_None_trojan_1196
+  - Japan_Tokyo_trojan_1196
   - Japan_Tokyo_trojan_1197
   - Japan_Tokyo_trojan_1198
   - Japan_Tokyo_trojan_1199
-  - Japan_Tokyo_trojan_11100
+  - Japan_None_trojan_11100
   - Japan_Tokyo_trojan_11101
   - Hong Kong_None_trojan_11102
-  - Japan_Tokyo_trojan_11103
-  - Japan_Tokyo_trojan_11104
+  - Japan_None_trojan_11103
+  - Japan_None_trojan_11104
   - Hong Kong_None_trojan_11105
   - China_None_vmess_11106
-  - Hong Kong_Tuen Mun_vmess_11107
-  - China_None_vmess_11108
+  - China_None_vmess_11107
+  - Hong Kong_Tuen Mun_vmess_11108
+  - China_None_vmess_11109
+  - China_None_vmess_11110
 - name: 负载均衡
   type: load-balance
   proxies:
@@ -1671,11 +1694,11 @@ proxy-groups:
   - United States_None_vmess_1113
   - United Kingdom_None_vmess_1114
   - None_None_trojan_1115
-  - None_None_trojan_1116
-  - None_None_trojan_1117
-  - None_None_trojan_1118
+  - United States_San Francisco_trojan_1116
+  - United States_San Francisco_trojan_1117
+  - United States_San Francisco_trojan_1118
   - None_None_trojan_1119
-  - United States_San Francisco_trojan_1120
+  - None_None_trojan_1120
   - None_None_trojan_1121
   - None_None_trojan_1122
   - None_None_trojan_1123
@@ -1691,10 +1714,10 @@ proxy-groups:
   - None_None_trojan_1133
   - None_None_trojan_1134
   - None_None_trojan_1135
-  - United States_None_trojan_1136
+  - None_None_trojan_1136
   - None_None_trojan_1137
-  - United States_None_trojan_1138
-  - None_None_trojan_1139
+  - None_None_trojan_1138
+  - United States_None_trojan_1139
   - None_None_trojan_1140
   - United States_None_trojan_1141
   - China_None_trojan_1142
@@ -1741,7 +1764,7 @@ proxy-groups:
   - None_None_vmess_1183
   - None_None_vmess_1184
   - Hong Kong_Sha Tin Wai_vmess_1185
-  - None_None_vmess_1186
+  - United States_None_vmess_1186
   - None_None_vmess_1187
   - Hong Kong_Sha Tin Wai_vmess_1188
   - France_None_trojan_1189
@@ -1751,19 +1774,21 @@ proxy-groups:
   - Hong Kong_Tuen Mun_vmess_1193
   - Japan_Tokyo_trojan_1194
   - Hong Kong_None_trojan_1195
-  - Hong Kong_None_trojan_1196
+  - Japan_Tokyo_trojan_1196
   - Japan_Tokyo_trojan_1197
   - Japan_Tokyo_trojan_1198
   - Japan_Tokyo_trojan_1199
-  - Japan_Tokyo_trojan_11100
+  - Japan_None_trojan_11100
   - Japan_Tokyo_trojan_11101
   - Hong Kong_None_trojan_11102
-  - Japan_Tokyo_trojan_11103
-  - Japan_Tokyo_trojan_11104
+  - Japan_None_trojan_11103
+  - Japan_None_trojan_11104
   - Hong Kong_None_trojan_11105
   - China_None_vmess_11106
-  - Hong Kong_Tuen Mun_vmess_11107
-  - China_None_vmess_11108
+  - China_None_vmess_11107
+  - Hong Kong_Tuen Mun_vmess_11108
+  - China_None_vmess_11109
+  - China_None_vmess_11110
   url: http://www.gstatic.com/generate_204
   interval: 300
   strategy: round-robin
