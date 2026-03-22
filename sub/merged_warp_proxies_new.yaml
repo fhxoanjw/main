@@ -60,7 +60,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Yuen Long San Hui_vmess_102
+  name: Hong Kong_Central_vmess_102
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -165,7 +165,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Yuen Long San Hui_vmess_1015
+  name: Hong Kong_Central_vmess_1015
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -383,7 +383,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Yuen Long San Hui_vmess_1112
+  name: Hong Kong_Central_vmess_1112
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -488,7 +488,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Yuen Long San Hui_vmess_1125
+  name: Hong Kong_Central_vmess_1125
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -631,7 +631,7 @@ proxy-groups:
   tolerance: 50
   proxies:
   - United States_None_ss_101
-  - Hong Kong_Yuen Long San Hui_vmess_102
+  - Hong Kong_Central_vmess_102
   - Japan_Tokyo_trojan_103
   - United States_None_trojan_104
   - United States_None_trojan_105
@@ -644,7 +644,7 @@ proxy-groups:
   - Japan_Tokyo_trojan_1012
   - Japan_Tokyo_trojan_1013
   - Hong Kong_None_trojan_1014
-  - Hong Kong_Yuen Long San Hui_vmess_1015
+  - Hong Kong_Central_vmess_1015
   - Australia_Sydney_trojan_1016
   - South Korea_Goyang-si_trojan_1017
   - South Korea_Ulju-gun_trojan_1018
@@ -669,7 +669,7 @@ proxy-groups:
   - Unknown_vmess_119
   - Unknown_vmess_1110
   - United States_None_ss_1111
-  - Hong Kong_Yuen Long San Hui_vmess_1112
+  - Hong Kong_Central_vmess_1112
   - Japan_Tokyo_trojan_1113
   - United States_None_trojan_1114
   - United States_None_trojan_1115
@@ -682,7 +682,7 @@ proxy-groups:
   - Japan_Tokyo_trojan_1122
   - Japan_Tokyo_trojan_1123
   - Hong Kong_None_trojan_1124
-  - Hong Kong_Yuen Long San Hui_vmess_1125
+  - Hong Kong_Central_vmess_1125
   - Australia_Sydney_trojan_1126
   - South Korea_Goyang-si_trojan_1127
   - South Korea_Ulju-gun_trojan_1128
@@ -700,7 +700,7 @@ proxy-groups:
   type: select
   proxies:
   - United States_None_ss_101
-  - Hong Kong_Yuen Long San Hui_vmess_102
+  - Hong Kong_Central_vmess_102
   - Japan_Tokyo_trojan_103
   - United States_None_trojan_104
   - United States_None_trojan_105
@@ -713,7 +713,7 @@ proxy-groups:
   - Japan_Tokyo_trojan_1012
   - Japan_Tokyo_trojan_1013
   - Hong Kong_None_trojan_1014
-  - Hong Kong_Yuen Long San Hui_vmess_1015
+  - Hong Kong_Central_vmess_1015
   - Australia_Sydney_trojan_1016
   - South Korea_Goyang-si_trojan_1017
   - South Korea_Ulju-gun_trojan_1018
@@ -738,7 +738,7 @@ proxy-groups:
   - Unknown_vmess_119
   - Unknown_vmess_1110
   - United States_None_ss_1111
-  - Hong Kong_Yuen Long San Hui_vmess_1112
+  - Hong Kong_Central_vmess_1112
   - Japan_Tokyo_trojan_1113
   - United States_None_trojan_1114
   - United States_None_trojan_1115
@@ -751,7 +751,7 @@ proxy-groups:
   - Japan_Tokyo_trojan_1122
   - Japan_Tokyo_trojan_1123
   - Hong Kong_None_trojan_1124
-  - Hong Kong_Yuen Long San Hui_vmess_1125
+  - Hong Kong_Central_vmess_1125
   - Australia_Sydney_trojan_1126
   - South Korea_Goyang-si_trojan_1127
   - South Korea_Ulju-gun_trojan_1128
@@ -769,7 +769,7 @@ proxy-groups:
   type: load-balance
   proxies:
   - United States_None_ss_101
-  - Hong Kong_Yuen Long San Hui_vmess_102
+  - Hong Kong_Central_vmess_102
   - Japan_Tokyo_trojan_103
   - United States_None_trojan_104
   - United States_None_trojan_105
@@ -782,7 +782,7 @@ proxy-groups:
   - Japan_Tokyo_trojan_1012
   - Japan_Tokyo_trojan_1013
   - Hong Kong_None_trojan_1014
-  - Hong Kong_Yuen Long San Hui_vmess_1015
+  - Hong Kong_Central_vmess_1015
   - Australia_Sydney_trojan_1016
   - South Korea_Goyang-si_trojan_1017
   - South Korea_Ulju-gun_trojan_1018
@@ -807,7 +807,7 @@ proxy-groups:
   - Unknown_vmess_119
   - Unknown_vmess_1110
   - United States_None_ss_1111
-  - Hong Kong_Yuen Long San Hui_vmess_1112
+  - Hong Kong_Central_vmess_1112
   - Japan_Tokyo_trojan_1113
   - United States_None_trojan_1114
   - United States_None_trojan_1115
@@ -820,7 +820,7 @@ proxy-groups:
   - Japan_Tokyo_trojan_1122
   - Japan_Tokyo_trojan_1123
   - Hong Kong_None_trojan_1124
-  - Hong Kong_Yuen Long San Hui_vmess_1125
+  - Hong Kong_Central_vmess_1125
   - Australia_Sydney_trojan_1126
   - South Korea_Goyang-si_trojan_1127
   - South Korea_Ulju-gun_trojan_1128
