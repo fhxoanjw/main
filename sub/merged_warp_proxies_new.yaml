@@ -60,7 +60,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_102
+  name: Hong Kong_North Point_vmess_102
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -75,27 +75,27 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: United States_None_trojan_104
+- name: Japan_Tokyo_trojan_104
   network: tcp
   password: BxceQaOe
-  port: 6313
-  server: 54.46.52.70
+  port: 9211
+  server: 18.183.182.241
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: Japan_Tokyo_trojan_105
   network: tcp
   password: BxceQaOe
-  port: 6313
-  server: 52.69.111.130
+  port: 50612
+  server: 18.183.182.241
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: Japan_Tokyo_trojan_106
+- name: United States_None_trojan_106
   network: tcp
   password: BxceQaOe
-  port: 1951
-  server: 13.112.73.166
+  port: 1783
+  server: 13.192.183.245
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -131,11 +131,11 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: Poland_None_trojan_1011
+- name: Japan_Tokyo_trojan_1011
   network: tcp
   password: BxceQaOe
-  port: 12070
-  server: 95.40.68.160
+  port: 28033
+  server: 18.183.182.241
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -155,17 +155,17 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: United States_None_trojan_1014
+- name: Japan_Tokyo_trojan_1014
   network: tcp
   password: BxceQaOe
-  port: 23255
-  server: 54.46.52.234
+  port: 49534
+  server: 18.183.182.241
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_1015
+  name: Hong Kong_North Point_vmess_1015
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -284,7 +284,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_1112
+  name: Hong Kong_North Point_vmess_1112
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -389,7 +389,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_1125
+  name: Hong Kong_North Point_vmess_1125
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -433,20 +433,20 @@ proxy-groups:
   tolerance: 50
   proxies:
   - United States_None_ss_101
-  - Hong Kong_Central_vmess_102
+  - Hong Kong_North Point_vmess_102
   - Poland_None_trojan_103
-  - United States_None_trojan_104
+  - Japan_Tokyo_trojan_104
   - Japan_Tokyo_trojan_105
-  - Japan_Tokyo_trojan_106
+  - United States_None_trojan_106
   - Japan_Tokyo_trojan_107
   - Japan_Tokyo_trojan_108
   - Japan_Tokyo_trojan_109
   - Japan_Tokyo_trojan_1010
-  - Poland_None_trojan_1011
+  - Japan_Tokyo_trojan_1011
   - Japan_Tokyo_trojan_1012
   - Japan_Tokyo_trojan_1013
-  - United States_None_trojan_1014
-  - Hong Kong_Central_vmess_1015
+  - Japan_Tokyo_trojan_1014
+  - Hong Kong_North Point_vmess_1015
   - Austria_None_trojan_1016
   - Unknown_vmess_111
   - Unknown_vmess_112
@@ -459,7 +459,7 @@ proxy-groups:
   - Unknown_vmess_119
   - Unknown_vmess_1110
   - United States_None_ss_1111
-  - Hong Kong_Central_vmess_1112
+  - Hong Kong_North Point_vmess_1112
   - Poland_None_trojan_1113
   - Japan_Tokyo_trojan_1114
   - Japan_Tokyo_trojan_1115
@@ -472,26 +472,26 @@ proxy-groups:
   - Japan_Tokyo_trojan_1122
   - Japan_Tokyo_trojan_1123
   - Japan_Tokyo_trojan_1124
-  - Hong Kong_Central_vmess_1125
+  - Hong Kong_North Point_vmess_1125
   - Austria_None_trojan_1126
 - name: 手动选择
   type: select
   proxies:
   - United States_None_ss_101
-  - Hong Kong_Central_vmess_102
+  - Hong Kong_North Point_vmess_102
   - Poland_None_trojan_103
-  - United States_None_trojan_104
+  - Japan_Tokyo_trojan_104
   - Japan_Tokyo_trojan_105
-  - Japan_Tokyo_trojan_106
+  - United States_None_trojan_106
   - Japan_Tokyo_trojan_107
   - Japan_Tokyo_trojan_108
   - Japan_Tokyo_trojan_109
   - Japan_Tokyo_trojan_1010
-  - Poland_None_trojan_1011
+  - Japan_Tokyo_trojan_1011
   - Japan_Tokyo_trojan_1012
   - Japan_Tokyo_trojan_1013
-  - United States_None_trojan_1014
-  - Hong Kong_Central_vmess_1015
+  - Japan_Tokyo_trojan_1014
+  - Hong Kong_North Point_vmess_1015
   - Austria_None_trojan_1016
   - Unknown_vmess_111
   - Unknown_vmess_112
@@ -504,7 +504,7 @@ proxy-groups:
   - Unknown_vmess_119
   - Unknown_vmess_1110
   - United States_None_ss_1111
-  - Hong Kong_Central_vmess_1112
+  - Hong Kong_North Point_vmess_1112
   - Poland_None_trojan_1113
   - Japan_Tokyo_trojan_1114
   - Japan_Tokyo_trojan_1115
@@ -517,26 +517,26 @@ proxy-groups:
   - Japan_Tokyo_trojan_1122
   - Japan_Tokyo_trojan_1123
   - Japan_Tokyo_trojan_1124
-  - Hong Kong_Central_vmess_1125
+  - Hong Kong_North Point_vmess_1125
   - Austria_None_trojan_1126
 - name: 负载均衡
   type: load-balance
   proxies:
   - United States_None_ss_101
-  - Hong Kong_Central_vmess_102
+  - Hong Kong_North Point_vmess_102
   - Poland_None_trojan_103
-  - United States_None_trojan_104
+  - Japan_Tokyo_trojan_104
   - Japan_Tokyo_trojan_105
-  - Japan_Tokyo_trojan_106
+  - United States_None_trojan_106
   - Japan_Tokyo_trojan_107
   - Japan_Tokyo_trojan_108
   - Japan_Tokyo_trojan_109
   - Japan_Tokyo_trojan_1010
-  - Poland_None_trojan_1011
+  - Japan_Tokyo_trojan_1011
   - Japan_Tokyo_trojan_1012
   - Japan_Tokyo_trojan_1013
-  - United States_None_trojan_1014
-  - Hong Kong_Central_vmess_1015
+  - Japan_Tokyo_trojan_1014
+  - Hong Kong_North Point_vmess_1015
   - Austria_None_trojan_1016
   - Unknown_vmess_111
   - Unknown_vmess_112
@@ -549,7 +549,7 @@ proxy-groups:
   - Unknown_vmess_119
   - Unknown_vmess_1110
   - United States_None_ss_1111
-  - Hong Kong_Central_vmess_1112
+  - Hong Kong_North Point_vmess_1112
   - Poland_None_trojan_1113
   - Japan_Tokyo_trojan_1114
   - Japan_Tokyo_trojan_1115
@@ -562,7 +562,7 @@ proxy-groups:
   - Japan_Tokyo_trojan_1122
   - Japan_Tokyo_trojan_1123
   - Japan_Tokyo_trojan_1124
-  - Hong Kong_Central_vmess_1125
+  - Hong Kong_North Point_vmess_1125
   - Austria_None_trojan_1126
   url: http://www.gstatic.com/generate_204
   interval: 300
