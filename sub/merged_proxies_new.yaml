@@ -73,7 +73,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_102
+  name: Hong Kong_Tuen Mun_vmess_102
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -187,7 +187,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_1016
+  name: Hong Kong_Tuen Mun_vmess_1016
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -303,7 +303,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_1112
+  name: Hong Kong_Tuen Mun_vmess_1112
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -417,7 +417,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_1126
+  name: Hong Kong_Tuen Mun_vmess_1126
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -463,7 +463,7 @@ proxy-groups:
   - 手动选择
   - DIRECT
   - United States_None_ss_101
-  - Hong Kong_Central_vmess_102
+  - Hong Kong_Tuen Mun_vmess_102
   - Hong Kong_None_trojan_103
   - Poland_None_trojan_104
   - Poland_None_trojan_105
@@ -477,7 +477,7 @@ proxy-groups:
   - Poland_None_trojan_1013
   - Hong Kong_None_trojan_1014
   - United Kingdom_None_vmess_1015
-  - Hong Kong_Central_vmess_1016
+  - Hong Kong_Tuen Mun_vmess_1016
   - United Kingdom_None_vmess_1017
   - Unknown_vmess_111
   - Unknown_vmess_112
@@ -490,7 +490,7 @@ proxy-groups:
   - Unknown_vmess_119
   - Unknown_vmess_1110
   - United States_None_ss_1111
-  - Hong Kong_Central_vmess_1112
+  - Hong Kong_Tuen Mun_vmess_1112
   - Hong Kong_None_trojan_1113
   - Poland_None_trojan_1114
   - Poland_None_trojan_1115
@@ -504,7 +504,7 @@ proxy-groups:
   - Poland_None_trojan_1123
   - Hong Kong_None_trojan_1124
   - United Kingdom_None_vmess_1125
-  - Hong Kong_Central_vmess_1126
+  - Hong Kong_Tuen Mun_vmess_1126
   - United Kingdom_None_vmess_1127
   - France_None_vmess_1128
 - name: WARP前置节点
@@ -522,7 +522,7 @@ proxy-groups:
   tolerance: 50
   proxies:
   - United States_None_ss_101
-  - Hong Kong_Central_vmess_102
+  - Hong Kong_Tuen Mun_vmess_102
   - Hong Kong_None_trojan_103
   - Poland_None_trojan_104
   - Poland_None_trojan_105
@@ -536,7 +536,7 @@ proxy-groups:
   - Poland_None_trojan_1013
   - Hong Kong_None_trojan_1014
   - United Kingdom_None_vmess_1015
-  - Hong Kong_Central_vmess_1016
+  - Hong Kong_Tuen Mun_vmess_1016
   - United Kingdom_None_vmess_1017
   - Unknown_vmess_111
   - Unknown_vmess_112
@@ -549,7 +549,7 @@ proxy-groups:
   - Unknown_vmess_119
   - Unknown_vmess_1110
   - United States_None_ss_1111
-  - Hong Kong_Central_vmess_1112
+  - Hong Kong_Tuen Mun_vmess_1112
   - Hong Kong_None_trojan_1113
   - Poland_None_trojan_1114
   - Poland_None_trojan_1115
@@ -563,7 +563,7 @@ proxy-groups:
   - Poland_None_trojan_1123
   - Hong Kong_None_trojan_1124
   - United Kingdom_None_vmess_1125
-  - Hong Kong_Central_vmess_1126
+  - Hong Kong_Tuen Mun_vmess_1126
   - United Kingdom_None_vmess_1127
   - France_None_vmess_1128
 - name: 手动选择
