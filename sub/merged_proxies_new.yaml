@@ -307,7 +307,6 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-  udp: true
 - name: Hong Kong_None_trojan_1114
   network: tcp
   password: BxceQaOe
@@ -316,7 +315,6 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-  udp: true
 - name: Hong Kong_None_trojan_1115
   network: tcp
   password: BxceQaOe
@@ -325,7 +323,6 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-  udp: true
 - name: United States_None_trojan_1116
   network: tcp
   password: BxceQaOe
@@ -334,7 +331,6 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-  udp: true
 - name: Hong Kong_None_trojan_1117
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
@@ -343,7 +339,6 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-  udp: true
 - name: Japan_Tokyo_trojan_1118
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
@@ -352,13 +347,12 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-  udp: true
 - name: Hong Kong_None_trojan_1119
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 6357
   server: 43.199.32.78
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: Hong Kong_None_trojan_1120
@@ -377,7 +371,6 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-  udp: true
 - name: Japan_Tokyo_trojan_1122
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
@@ -386,7 +379,6 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-  udp: true
 - name: Japan_Tokyo_trojan_1123
   password: d1960ba9f0f6353353994fa844cf817b
   port: 49277
@@ -402,7 +394,6 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-  udp: true
 - alterId: 2
   cipher: auto
   name: Hong Kong_Central_vmess_1125
@@ -413,54 +404,6 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: United States_None_trojan_1126
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: de.catxstar.com
-  type: trojan
-- name: United States_None_trojan_1127
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  tls: true
-  type: trojan
-  udp: true
-- name: United States_None_trojan_1128
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: '20041'
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: hkdcrtc-e.catcat321.com
-  type: trojan
-  udp: true
-- name: Hong Kong_None_trojan_1129
-  password: BxceQaOe
-  port: '11035'
-  server: 18.163.122.92
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- name: Hong Kong_None_trojan_1130
-  password: BxceQaOe
-  port: '27161'
-  server: 16.163.138.98
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- name: Hong Kong_None_trojan_1131
-  password: BxceQaOe
-  port: '32434'
-  server: 43.198.12.180
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
 proxy-groups:
 - name: 节点选择
   type: select
@@ -510,12 +453,6 @@ proxy-groups:
   - Japan_Tokyo_trojan_1123
   - United States_None_trojan_1124
   - Hong Kong_Central_vmess_1125
-  - United States_None_trojan_1126
-  - United States_None_trojan_1127
-  - United States_None_trojan_1128
-  - Hong Kong_None_trojan_1129
-  - Hong Kong_None_trojan_1130
-  - Hong Kong_None_trojan_1131
 - name: WARP前置节点
   type: select
   proxies:
@@ -570,12 +507,6 @@ proxy-groups:
   - Japan_Tokyo_trojan_1123
   - United States_None_trojan_1124
   - Hong Kong_Central_vmess_1125
-  - United States_None_trojan_1126
-  - United States_None_trojan_1127
-  - United States_None_trojan_1128
-  - Hong Kong_None_trojan_1129
-  - Hong Kong_None_trojan_1130
-  - Hong Kong_None_trojan_1131
 - name: 手动选择
   type: select
   proxies: null
