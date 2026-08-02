@@ -514,15 +514,13 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- grpc-opts:
-    grpc-service-name: /50779/NQmry9z8yR
-  name: United Kingdom_Isleworth_trojan_1126
-  network: grpc
-  password: 581e14a5fcc14107b9326cc54f047891
-  port: 443
-  server: 31.76.11.46.cdn-one.org
-  skip-cert-verify: false
-  sni: 31.76.11.46.cdn-one.org
+- name: United States_None_trojan_1126
+  network: tcp
+  password: i99Cef
+  port: '28124'
+  server: 209.248.32.115
+  skip-cert-verify: true
+  sni: ctldl.windowsupdate.com
   type: trojan
   udp: true
 - grpc-opts:
@@ -539,7 +537,7 @@ proxies:
     grpc-service-name: /50779/NQmry9z8yR
   name: United Kingdom_Isleworth_trojan_1128
   network: grpc
-  password: 32b2m2w7hsdd93z7
+  password: 581e14a5fcc14107b9326cc54f047891
   port: 443
   server: 31.76.11.46.cdn-one.org
   skip-cert-verify: false
@@ -554,11 +552,22 @@ proxies:
   port: 443
   server: 31.76.11.46.cdn-one.org
   skip-cert-verify: false
+  sni: 31.76.11.46.cdn-one.org
+  type: trojan
+  udp: true
+- grpc-opts:
+    grpc-service-name: /50779/NQmry9z8yR
+  name: United Kingdom_Isleworth_trojan_1130
+  network: grpc
+  password: 32b2m2w7hsdd93z7
+  port: 443
+  server: 31.76.11.46.cdn-one.org
+  skip-cert-verify: false
   type: trojan
   udp: true
 - grpc-opts:
     grpc-service-name: /28786/4U7gXXHftA
-  name: United Kingdom_Sheffield_trojan_1130
+  name: United Kingdom_Sheffield_trojan_1131
   network: grpc
   password: 581e14a5fcc14107b9326cc54f047891
   port: 443
@@ -566,23 +575,12 @@ proxies:
   skip-cert-verify: false
   type: trojan
   udp: true
-- name: Hong Kong_None_trojan_1131
+- name: Hong Kong_None_trojan_1132
   password: BxceQaOe
   port: 29443
   server: 18.166.249.45
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
-  type: trojan
-  udp: true
-- grpc-opts:
-    grpc-service-name: /56227/rSnUrv2yXU
-  name: Bulgaria_None_trojan_1132
-  network: grpc
-  password: 581e14a5fcc14107b9326cc54f047891
-  port: 443
-  server: 83.143.112.140.cdn-one.org
-  skip-cert-verify: false
-  sni: 83.143.112.140.cdn-one.org
   type: trojan
   udp: true
 - grpc-opts:
@@ -593,17 +591,17 @@ proxies:
   port: 443
   server: 83.143.112.140.cdn-one.org
   skip-cert-verify: false
+  sni: 83.143.112.140.cdn-one.org
   type: trojan
   udp: true
 - grpc-opts:
     grpc-service-name: /56227/rSnUrv2yXU
   name: Bulgaria_None_trojan_1134
   network: grpc
-  password: 32b2m2w7hsdd93z7
+  password: 581e14a5fcc14107b9326cc54f047891
   port: 443
   server: 83.143.112.140.cdn-one.org
   skip-cert-verify: false
-  sni: 83.143.112.140.cdn-one.org
   type: trojan
   udp: true
 - grpc-opts:
@@ -614,9 +612,20 @@ proxies:
   port: 443
   server: 83.143.112.140.cdn-one.org
   skip-cert-verify: false
+  sni: 83.143.112.140.cdn-one.org
   type: trojan
   udp: true
-- name: United States_None_trojan_1136
+- grpc-opts:
+    grpc-service-name: /56227/rSnUrv2yXU
+  name: Bulgaria_None_trojan_1136
+  network: grpc
+  password: 32b2m2w7hsdd93z7
+  port: 443
+  server: 83.143.112.140.cdn-one.org
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: United States_None_trojan_1137
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
   server: Hkdcrtc-e.catcat321.com
@@ -624,7 +633,7 @@ proxies:
   sni: de.catxstar.com
   type: trojan
   udp: true
-- name: United States_None_trojan_1137
+- name: United States_None_trojan_1138
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
   server: hkdcrtc-e.catcat321.com
@@ -632,7 +641,7 @@ proxies:
   sni: hkdcrtc-e.catcat321.com
   type: trojan
   udp: true
-- name: United States_None_trojan_1138
+- name: United States_None_trojan_1139
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
   server: hkdcrtc-e.catcat321.com
@@ -715,19 +724,20 @@ proxy-groups:
   - Hong Kong_None_trojan_1123
   - Hong Kong_None_trojan_1124
   - Hong Kong_Central_vmess_1125
-  - United Kingdom_Isleworth_trojan_1126
+  - United States_None_trojan_1126
   - United Kingdom_Isleworth_trojan_1127
   - United Kingdom_Isleworth_trojan_1128
   - United Kingdom_Isleworth_trojan_1129
-  - United Kingdom_Sheffield_trojan_1130
-  - Hong Kong_None_trojan_1131
-  - Bulgaria_None_trojan_1132
+  - United Kingdom_Isleworth_trojan_1130
+  - United Kingdom_Sheffield_trojan_1131
+  - Hong Kong_None_trojan_1132
   - Bulgaria_None_trojan_1133
   - Bulgaria_None_trojan_1134
   - Bulgaria_None_trojan_1135
-  - United States_None_trojan_1136
+  - Bulgaria_None_trojan_1136
   - United States_None_trojan_1137
   - United States_None_trojan_1138
+  - United States_None_trojan_1139
 - name: 手动选择
   type: select
   proxies:
@@ -784,19 +794,20 @@ proxy-groups:
   - Hong Kong_None_trojan_1123
   - Hong Kong_None_trojan_1124
   - Hong Kong_Central_vmess_1125
-  - United Kingdom_Isleworth_trojan_1126
+  - United States_None_trojan_1126
   - United Kingdom_Isleworth_trojan_1127
   - United Kingdom_Isleworth_trojan_1128
   - United Kingdom_Isleworth_trojan_1129
-  - United Kingdom_Sheffield_trojan_1130
-  - Hong Kong_None_trojan_1131
-  - Bulgaria_None_trojan_1132
+  - United Kingdom_Isleworth_trojan_1130
+  - United Kingdom_Sheffield_trojan_1131
+  - Hong Kong_None_trojan_1132
   - Bulgaria_None_trojan_1133
   - Bulgaria_None_trojan_1134
   - Bulgaria_None_trojan_1135
-  - United States_None_trojan_1136
+  - Bulgaria_None_trojan_1136
   - United States_None_trojan_1137
   - United States_None_trojan_1138
+  - United States_None_trojan_1139
 - name: 负载均衡
   type: load-balance
   proxies:
@@ -853,19 +864,20 @@ proxy-groups:
   - Hong Kong_None_trojan_1123
   - Hong Kong_None_trojan_1124
   - Hong Kong_Central_vmess_1125
-  - United Kingdom_Isleworth_trojan_1126
+  - United States_None_trojan_1126
   - United Kingdom_Isleworth_trojan_1127
   - United Kingdom_Isleworth_trojan_1128
   - United Kingdom_Isleworth_trojan_1129
-  - United Kingdom_Sheffield_trojan_1130
-  - Hong Kong_None_trojan_1131
-  - Bulgaria_None_trojan_1132
+  - United Kingdom_Isleworth_trojan_1130
+  - United Kingdom_Sheffield_trojan_1131
+  - Hong Kong_None_trojan_1132
   - Bulgaria_None_trojan_1133
   - Bulgaria_None_trojan_1134
   - Bulgaria_None_trojan_1135
-  - United States_None_trojan_1136
+  - Bulgaria_None_trojan_1136
   - United States_None_trojan_1137
   - United States_None_trojan_1138
+  - United States_None_trojan_1139
   url: http://www.gstatic.com/generate_204
   interval: 300
   strategy: round-robin
