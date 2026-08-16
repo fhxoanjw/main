@@ -70,24 +70,24 @@ proxies:
 - name: Hong Kong_None_trojan_103
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
-  port: 17111
-  server: 18.163.126.92
+  port: 1138
+  server: 43.198.107.164
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: Poland_None_trojan_104
+- name: Hong Kong_None_trojan_104
   network: tcp
   password: BxceQaOe
-  port: 27161
-  server: 95.40.111.110
+  port: 11035
+  server: 43.198.248.121
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: Poland_None_trojan_105
+- name: Hong Kong_None_trojan_105
   network: tcp
   password: BxceQaOe
   port: 27161
-  server: 95.40.95.57
+  server: 18.163.122.95
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -95,23 +95,23 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 16691
-  server: 16.162.93.233
+  server: 16.163.146.58
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: Hong Kong_None_trojan_107
+- name: Poland_None_trojan_107
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
-  port: 3415
-  server: 16.162.100.124
+  port: 44229
+  server: 95.40.14.234
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: Hong Kong_None_trojan_108
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
-  port: 7630
-  server: 16.162.100.29
+  port: 54876
+  server: 16.162.192.182
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -119,7 +119,7 @@ proxies:
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 45744
-  server: 16.162.109.29
+  server: 18.163.126.92
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -127,37 +127,45 @@ proxies:
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 51396
-  server: 16.162.109.29
+  server: 16.162.100.124
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: Hong Kong_None_trojan_1011
   network: tcp
   password: BxceQaOe
-  port: 44900
-  server: 18.162.154.22
+  port: 26704
+  server: 16.163.146.58
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: Hong Kong_None_trojan_1012
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
-  port: 39024
-  server: 18.163.126.92
+  port: 28051
+  server: 16.162.109.29
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: Hong Kong_None_trojan_1013
   network: tcp
+  password: 6ec301428255a78a1d826988d86cc87e
+  port: 10418
+  server: 16.162.192.182
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: Poland_None_trojan_1014
+  network: tcp
   password: BxceQaOe
-  port: 1431
-  server: 18.162.154.22
+  port: 10418
+  server: 95.40.29.163
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_1014
+  name: Hong Kong_Central_vmess_1015
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -165,7 +173,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: Hong Kong_None_trojan_1015
+- name: Hong Kong_None_trojan_1016
   password: BxceQaOe
   port: 27161
   server: 16.162.3.11
@@ -173,7 +181,7 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
-- name: Hong Kong_None_trojan_1016
+- name: Hong Kong_None_trojan_1017
   password: BxceQaOe
   port: 27161
   server: 16.162.3.11
@@ -181,7 +189,7 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
-- name: Japan_Tokyo_trojan_1017
+- name: Japan_Tokyo_trojan_1018
   password: 7d8e6db4-96cc-4710-afc0-619edde2d7a1
   port: 55682
   server: t11.qifei.app
@@ -401,11 +409,38 @@ proxies:
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: chrome
-  name: None_None_trojan_1126
+  name: United States_None_trojan_1126
   network: ws
   password: humanity
   port: '443'
-  server: 104.16.174.117
+  server: 172.67.149.60
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-J700M Build/MMB29K) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /assignment
+- alterId: 2
+  cipher: auto
+  name: China_None_vmess_1127
+  network: tcp
+  port: 30845
+  server: v45.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
+- client-fingerprint: chrome
+  name: None_None_trojan_1128
+  network: ws
+  password: humanity
+  port: '443'
+  server: www.speedtest.org
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
@@ -413,47 +448,61 @@ proxies:
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/54.0.2840.99 Safari/537.36
+        like Gecko) Chrome/61.0.3163.100 Safari/537.36
     path: /assignment
-- client-fingerprint: chrome
-  name: United States_None_trojan_1127
+- alpn:
+  - http/1.1
+  - h2
+  - h3
+  client-fingerprint: chrome
+  name: None_None_trojan_1129
   network: ws
   password: humanity
   port: '443'
-  server: render.com
+  server: 198.41.223.96
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/56.0.2924.87 Safari/537.36
     path: /assignment
-- cipher: chacha20-ietf
-  name: United Kingdom_Gosport_ss_1128
-  password: passwd
-  plugin: obfs
-  plugin-opts:
-    host: 43309-nIao34iu.download.microsoft.com
-    mode: http
-  port: 8103
-  server: cn01.somethingstranges.com
-  type: ss
-- cipher: chacha20-ietf
-  name: United Kingdom_Gosport_ss_1129
-  password: passwd
-  plugin: obfs
-  plugin-opts:
-    host: 43309-nIao34iu.download.microsoft.com
-    mode: http
-  port: 8231
-  server: cn06.somethingstranges.com
-  type: ss
+- client-fingerprint: chrome
+  name: United States_None_trojan_1130
+  network: ws
+  password: humanity
+  port: '443'
+  server: 172.67.221.242
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1606 Build/MMB29M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: None_None_trojan_1131
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.20.6.134
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/69.0.3497.100 Safari/537.36
+    path: /assignment
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: United Kingdom_Isleworth_trojan_1130
+  name: United Kingdom_Isleworth_trojan_1132
   password: SEYnpOitNLndBhDtkZyeAShl
   port: '443'
   server: nl-vk.tkbvpcompany.site
@@ -461,18 +510,85 @@ proxies:
   sni: nl-vk.tkbvpcompany.site
   type: trojan
   udp: true
+- cipher: chacha20-ietf
+  name: United Kingdom_Gosport_ss_1133
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 43309-nIao34iu.download.microsoft.com
+    mode: http
+  port: 8110
+  server: cn02.somethingstranges.com
+  type: ss
+- cipher: chacha20-ietf
+  name: United Kingdom_Gosport_ss_1134
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 43309-nIao34iu.download.microsoft.com
+    mode: http
+  port: 8115
+  server: cn03.somethingstranges.com
+  type: ss
+- cipher: chacha20-ietf
+  name: United Kingdom_Gosport_ss_1135
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 43309-nIao34iu.download.microsoft.com
+    mode: http
+  port: 8102
+  server: cn01.somethingstranges.com
+  type: ss
+- cipher: chacha20-ietf
+  name: United Kingdom_Gosport_ss_1136
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 43309-nIao34iu.download.microsoft.com
+    mode: http
+  port: 8106
+  server: cn02.somethingstranges.com
+  type: ss
 - alpn:
   - http/1.1
-  client-fingerprint: chrome
-  name: Bulgaria_None_trojan_1131
-  password: bptHV5U91mWneB61rRKhCQ8f
-  port: '443'
-  server: 87.121.218.169
+  alterId: 0
+  cipher: auto
+  name: United States_None_vmess_1137
+  network: ws
+  port: 443
+  server: StreaMcORENODE8-aPilInkHub4-NetWeBGaTE.clOUdsYnC9.coM
+  servername: streAmcOREnODE8-apILiNkhUb4-nEtwebGATe.clOUDsync9.CoM
   skip-cert-verify: false
-  sni: 87.121.218.169
-  type: trojan
+  tls: true
+  type: vmess
   udp: true
-- name: Hong Kong_None_trojan_1132
+  uuid: dc598800-f4fa-46dd-abd4-218f1ba2f0b4
+  ws-opts:
+    headers:
+      Host: sTreamcoReNoDe8-APilInkHub4-nETWeBGaTE.cLOUdsYNc9.CoM
+    path: /mU5O3LNBc0Byn1BgoYh8
+  xudp: true
+- alpn:
+  - http/1.1
+  alterId: 0
+  cipher: auto
+  name: United States_None_vmess_1138
+  network: ws
+  port: 443
+  server: wEBCOReLInk4-hUbdAtAGAtE8-NoDEstREamab.clOudsyNC9.coM
+  servername: bAseporTlinK5-wEBGATeAPI1-HuBDatanet.ClouDsync9.COM
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: dc598800-f4fa-46dd-abd4-218f1ba2f0b4
+  ws-opts:
+    headers:
+      Host: BaseportlINk5-weBGaTEaPi1-hubDAtanET.CLouDSYNC9.CoM
+    path: /mU5O3LNBc0Byn1BgoYh8
+  xudp: true
+- name: Hong Kong_None_trojan_1139
   password: BxceQaOe
   port: 27161
   server: 16.162.3.11
@@ -480,7 +596,7 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
-- name: Hong Kong_None_trojan_1133
+- name: Hong Kong_None_trojan_1140
   password: BxceQaOe
   port: 27161
   server: 16.162.3.11
@@ -488,7 +604,7 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
-- name: Japan_Tokyo_trojan_1134
+- name: Japan_Tokyo_trojan_1141
   password: 7d8e6db4-96cc-4710-afc0-619edde2d7a1
   port: 55682
   server: t11.qifei.app
@@ -521,20 +637,21 @@ proxy-groups:
   - United States_None_ss_101
   - Hong Kong_Central_vmess_102
   - Hong Kong_None_trojan_103
-  - Poland_None_trojan_104
-  - Poland_None_trojan_105
+  - Hong Kong_None_trojan_104
+  - Hong Kong_None_trojan_105
   - Hong Kong_None_trojan_106
-  - Hong Kong_None_trojan_107
+  - Poland_None_trojan_107
   - Hong Kong_None_trojan_108
   - Hong Kong_None_trojan_109
   - Hong Kong_None_trojan_1010
   - Hong Kong_None_trojan_1011
   - Hong Kong_None_trojan_1012
   - Hong Kong_None_trojan_1013
-  - Hong Kong_Central_vmess_1014
-  - Hong Kong_None_trojan_1015
+  - Poland_None_trojan_1014
+  - Hong Kong_Central_vmess_1015
   - Hong Kong_None_trojan_1016
-  - Japan_Tokyo_trojan_1017
+  - Hong Kong_None_trojan_1017
+  - Japan_Tokyo_trojan_1018
   - Unknown_vmess_111
   - Unknown_vmess_112
   - Unknown_vmess_113
@@ -560,35 +677,43 @@ proxy-groups:
   - Hong Kong_None_trojan_1123
   - Poland_None_trojan_1124
   - Hong Kong_Central_vmess_1125
-  - None_None_trojan_1126
-  - United States_None_trojan_1127
-  - United Kingdom_Gosport_ss_1128
-  - United Kingdom_Gosport_ss_1129
-  - United Kingdom_Isleworth_trojan_1130
-  - Bulgaria_None_trojan_1131
-  - Hong Kong_None_trojan_1132
-  - Hong Kong_None_trojan_1133
-  - Japan_Tokyo_trojan_1134
+  - United States_None_trojan_1126
+  - China_None_vmess_1127
+  - None_None_trojan_1128
+  - None_None_trojan_1129
+  - United States_None_trojan_1130
+  - None_None_trojan_1131
+  - United Kingdom_Isleworth_trojan_1132
+  - United Kingdom_Gosport_ss_1133
+  - United Kingdom_Gosport_ss_1134
+  - United Kingdom_Gosport_ss_1135
+  - United Kingdom_Gosport_ss_1136
+  - United States_None_vmess_1137
+  - United States_None_vmess_1138
+  - Hong Kong_None_trojan_1139
+  - Hong Kong_None_trojan_1140
+  - Japan_Tokyo_trojan_1141
 - name: 手动选择
   type: select
   proxies:
   - United States_None_ss_101
   - Hong Kong_Central_vmess_102
   - Hong Kong_None_trojan_103
-  - Poland_None_trojan_104
-  - Poland_None_trojan_105
+  - Hong Kong_None_trojan_104
+  - Hong Kong_None_trojan_105
   - Hong Kong_None_trojan_106
-  - Hong Kong_None_trojan_107
+  - Poland_None_trojan_107
   - Hong Kong_None_trojan_108
   - Hong Kong_None_trojan_109
   - Hong Kong_None_trojan_1010
   - Hong Kong_None_trojan_1011
   - Hong Kong_None_trojan_1012
   - Hong Kong_None_trojan_1013
-  - Hong Kong_Central_vmess_1014
-  - Hong Kong_None_trojan_1015
+  - Poland_None_trojan_1014
+  - Hong Kong_Central_vmess_1015
   - Hong Kong_None_trojan_1016
-  - Japan_Tokyo_trojan_1017
+  - Hong Kong_None_trojan_1017
+  - Japan_Tokyo_trojan_1018
   - Unknown_vmess_111
   - Unknown_vmess_112
   - Unknown_vmess_113
@@ -614,35 +739,43 @@ proxy-groups:
   - Hong Kong_None_trojan_1123
   - Poland_None_trojan_1124
   - Hong Kong_Central_vmess_1125
-  - None_None_trojan_1126
-  - United States_None_trojan_1127
-  - United Kingdom_Gosport_ss_1128
-  - United Kingdom_Gosport_ss_1129
-  - United Kingdom_Isleworth_trojan_1130
-  - Bulgaria_None_trojan_1131
-  - Hong Kong_None_trojan_1132
-  - Hong Kong_None_trojan_1133
-  - Japan_Tokyo_trojan_1134
+  - United States_None_trojan_1126
+  - China_None_vmess_1127
+  - None_None_trojan_1128
+  - None_None_trojan_1129
+  - United States_None_trojan_1130
+  - None_None_trojan_1131
+  - United Kingdom_Isleworth_trojan_1132
+  - United Kingdom_Gosport_ss_1133
+  - United Kingdom_Gosport_ss_1134
+  - United Kingdom_Gosport_ss_1135
+  - United Kingdom_Gosport_ss_1136
+  - United States_None_vmess_1137
+  - United States_None_vmess_1138
+  - Hong Kong_None_trojan_1139
+  - Hong Kong_None_trojan_1140
+  - Japan_Tokyo_trojan_1141
 - name: 负载均衡
   type: load-balance
   proxies:
   - United States_None_ss_101
   - Hong Kong_Central_vmess_102
   - Hong Kong_None_trojan_103
-  - Poland_None_trojan_104
-  - Poland_None_trojan_105
+  - Hong Kong_None_trojan_104
+  - Hong Kong_None_trojan_105
   - Hong Kong_None_trojan_106
-  - Hong Kong_None_trojan_107
+  - Poland_None_trojan_107
   - Hong Kong_None_trojan_108
   - Hong Kong_None_trojan_109
   - Hong Kong_None_trojan_1010
   - Hong Kong_None_trojan_1011
   - Hong Kong_None_trojan_1012
   - Hong Kong_None_trojan_1013
-  - Hong Kong_Central_vmess_1014
-  - Hong Kong_None_trojan_1015
+  - Poland_None_trojan_1014
+  - Hong Kong_Central_vmess_1015
   - Hong Kong_None_trojan_1016
-  - Japan_Tokyo_trojan_1017
+  - Hong Kong_None_trojan_1017
+  - Japan_Tokyo_trojan_1018
   - Unknown_vmess_111
   - Unknown_vmess_112
   - Unknown_vmess_113
@@ -668,15 +801,22 @@ proxy-groups:
   - Hong Kong_None_trojan_1123
   - Poland_None_trojan_1124
   - Hong Kong_Central_vmess_1125
-  - None_None_trojan_1126
-  - United States_None_trojan_1127
-  - United Kingdom_Gosport_ss_1128
-  - United Kingdom_Gosport_ss_1129
-  - United Kingdom_Isleworth_trojan_1130
-  - Bulgaria_None_trojan_1131
-  - Hong Kong_None_trojan_1132
-  - Hong Kong_None_trojan_1133
-  - Japan_Tokyo_trojan_1134
+  - United States_None_trojan_1126
+  - China_None_vmess_1127
+  - None_None_trojan_1128
+  - None_None_trojan_1129
+  - United States_None_trojan_1130
+  - None_None_trojan_1131
+  - United Kingdom_Isleworth_trojan_1132
+  - United Kingdom_Gosport_ss_1133
+  - United Kingdom_Gosport_ss_1134
+  - United Kingdom_Gosport_ss_1135
+  - United Kingdom_Gosport_ss_1136
+  - United States_None_vmess_1137
+  - United States_None_vmess_1138
+  - Hong Kong_None_trojan_1139
+  - Hong Kong_None_trojan_1140
+  - Japan_Tokyo_trojan_1141
   url: http://www.gstatic.com/generate_204
   interval: 300
   strategy: round-robin
