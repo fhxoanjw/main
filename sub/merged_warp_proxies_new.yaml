@@ -390,84 +390,15 @@ proxies:
   port: 65443
   server: 121.46.230.138
   type: ss
-- alterId: 0
-  cipher: auto
-  name: United States_San Francisco_vmess_1127
-  network: ws
-  port: 443
-  server: node.socks5.kdns.fr
-  servername: hawaiian-bald-shed-goes.trycloudflare.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: de2b04aa-cc4d-4bc8-86e2-eca350671ea8
-  ws-opts:
-    headers:
-      Host: hawaiian-bald-shed-goes.trycloudflare.com
-    path: /de2b04aa-cc4d-4bc8-86e2-eca350671ea8-vm
-- cipher: aes-256-gcm
-  name: China_None_ss_1128
-  password: Butterfly123@qwe9527
-  port: '10006'
-  server: 36.33.35.105
-  type: ss
-  udp: true
-- alterId: '0'
-  cipher: auto
-  name: France_None_vmess_1129
-  network: ws
-  port: '16622'
-  server: planb.mojcn.com.linuxlh.xin
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: b312c029-18bb-43c8-bc5a-b4f8d193853c
-  ws-opts:
-    headers:
-      Host: 09a25e0678d5f69a5bb882d9f6441ad2.mobgslb.tbcache.com
-    path: /
-  xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: The Netherlands_Amsterdam_trojan_1130
-  network: ws
-  password: MiTiVPN
-  port: '443'
-  server: 188.114.97.6
-  skip-cert-verify: false
-  sni: 3865895-mitivpn--mitivpn------mitivpn.mitivpn-s.lifestyle
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G570M Build/NRD90M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/s-w@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- client-fingerprint: chrome
-  name: None_None_trojan_1131
-  network: ws
-  password: humanity
-  port: '443'
-  server: 104.19.229.21
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; de-DE) AppleWebKit/534.17
-        (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
-    path: assignment
 - alpn:
   - ''
   alterId: '0'
   cipher: auto
-  name: France_None_vmess_1132
+  name: France_None_vmess_1127
   network: ws
   port: '16632'
   server: planb.mojcn.com.linuxlh.xin
+  servername: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -478,24 +409,46 @@ proxies:
       Host: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
     path: /
   xudp: true
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: United States_None_vmess_1133
-  network: http
-  port: 52080
-  server: 38.246.226.240
-  tls: false
-  type: vmess
-  uuid: 7d4bd961-230c-4b34-ab5d-05cf0dfb4ea5
-- cipher: aes-256-cfb
-  name: Canada_Montreal_ss_1134
-  password: amazonskr05
-  port: 443
-  server: 3.96.158.76
+- cipher: chacha20-ietf-poly1305
+  name: China_None_ss_1128
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: '21107'
+  server: 211.91.158.26
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: China_None_ss_1129
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: '21109'
+  server: 211.91.158.26
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: China_None_ss_1130
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: '21117'
+  server: 211.91.158.26
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: China_None_ss_1131
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: '21121'
+  server: 211.91.158.26
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: China_None_ss_1132
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: '21108'
+  server: 211.91.158.44
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: China_None_ss_1133
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: '21117'
+  server: 211.91.158.44
   type: ss
   udp: true
 proxy-groups:
@@ -561,14 +514,13 @@ proxy-groups:
   - Hong Kong_None_trojan_1124
   - Hong Kong_Central_vmess_1125
   - China_None_ss_1126
-  - United States_San Francisco_vmess_1127
+  - France_None_vmess_1127
   - China_None_ss_1128
-  - France_None_vmess_1129
-  - The Netherlands_Amsterdam_trojan_1130
-  - None_None_trojan_1131
-  - France_None_vmess_1132
-  - United States_None_vmess_1133
-  - Canada_Montreal_ss_1134
+  - China_None_ss_1129
+  - China_None_ss_1130
+  - China_None_ss_1131
+  - China_None_ss_1132
+  - China_None_ss_1133
 - name: 手动选择
   type: select
   proxies:
@@ -613,14 +565,13 @@ proxy-groups:
   - Hong Kong_None_trojan_1124
   - Hong Kong_Central_vmess_1125
   - China_None_ss_1126
-  - United States_San Francisco_vmess_1127
+  - France_None_vmess_1127
   - China_None_ss_1128
-  - France_None_vmess_1129
-  - The Netherlands_Amsterdam_trojan_1130
-  - None_None_trojan_1131
-  - France_None_vmess_1132
-  - United States_None_vmess_1133
-  - Canada_Montreal_ss_1134
+  - China_None_ss_1129
+  - China_None_ss_1130
+  - China_None_ss_1131
+  - China_None_ss_1132
+  - China_None_ss_1133
 - name: 负载均衡
   type: load-balance
   proxies:
@@ -665,14 +616,13 @@ proxy-groups:
   - Hong Kong_None_trojan_1124
   - Hong Kong_Central_vmess_1125
   - China_None_ss_1126
-  - United States_San Francisco_vmess_1127
+  - France_None_vmess_1127
   - China_None_ss_1128
-  - France_None_vmess_1129
-  - The Netherlands_Amsterdam_trojan_1130
-  - None_None_trojan_1131
-  - France_None_vmess_1132
-  - United States_None_vmess_1133
-  - Canada_Montreal_ss_1134
+  - China_None_ss_1129
+  - China_None_ss_1130
+  - China_None_ss_1131
+  - China_None_ss_1132
+  - China_None_ss_1133
   url: http://www.gstatic.com/generate_204
   interval: 300
   strategy: round-robin
