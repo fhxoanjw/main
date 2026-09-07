@@ -262,27 +262,6 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: aes-256-cfb
-  name: China_None_ss_1026
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.138
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: China_None_ss_1027
-  password: 7eadc6dbe2ae
-  port: '65443'
-  server: 121.46.230.137
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: China_None_ss_1028
-  password: 7eadc6dbe2ae
-  port: '65443'
-  server: 121.46.230.232
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
   name: Unknown_vmess_111
@@ -480,13 +459,6 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: aes-256-cfb
-  name: China_None_ss_1126
-  password: 7eadc6dbe2ae
-  port: '65443'
-  server: 121.46.230.138
-  type: ss
-  udp: true
 proxy-groups:
 - name: 节点选择
   type: select
@@ -521,9 +493,6 @@ proxy-groups:
   - United States_None_trojan_1023
   - China_None_ss_1024
   - Hong Kong_Tuen Mun_vmess_1025
-  - China_None_ss_1026
-  - China_None_ss_1027
-  - China_None_ss_1028
   - Unknown_vmess_111
   - Unknown_vmess_112
   - Unknown_vmess_113
@@ -549,7 +518,6 @@ proxy-groups:
   - United States_None_trojan_1123
   - China_None_ss_1124
   - Hong Kong_Tuen Mun_vmess_1125
-  - China_None_ss_1126
 - name: WARP前置节点
   type: select
   proxies:
@@ -589,9 +557,6 @@ proxy-groups:
   - United States_None_trojan_1023
   - China_None_ss_1024
   - Hong Kong_Tuen Mun_vmess_1025
-  - China_None_ss_1026
-  - China_None_ss_1027
-  - China_None_ss_1028
   - Unknown_vmess_111
   - Unknown_vmess_112
   - Unknown_vmess_113
@@ -617,7 +582,6 @@ proxy-groups:
   - United States_None_trojan_1123
   - China_None_ss_1124
   - Hong Kong_Tuen Mun_vmess_1125
-  - China_None_ss_1126
 - name: 手动选择
   type: select
   proxies: null
