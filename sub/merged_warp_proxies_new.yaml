@@ -201,7 +201,7 @@ proxies:
   server: gd2.bjnet2.com
   type: ss
 - cipher: aes-128-gcm
-  name: Hong Kong_Hong Kong_ss_1017
+  name: France_None_ss_1017
   password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
   plugin: obfs
   plugin-opts:
@@ -211,7 +211,7 @@ proxies:
   server: gd.bjnet2.com
   type: ss
 - cipher: aes-128-gcm
-  name: Hong Kong_Hong Kong_ss_1018
+  name: France_None_ss_1018
   password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
   plugin: obfs
   plugin-opts:
@@ -221,7 +221,7 @@ proxies:
   server: gd.bjnet2.com
   type: ss
 - cipher: aes-128-gcm
-  name: Hong Kong_Hong Kong_ss_1019
+  name: France_None_ss_1019
   password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
   plugin: obfs
   plugin-opts:
@@ -241,7 +241,7 @@ proxies:
   server: gd2.bjnet2.com
   type: ss
 - cipher: aes-128-gcm
-  name: Hong Kong_Hong Kong_ss_1021
+  name: France_None_ss_1021
   password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
   plugin: obfs
   plugin-opts:
@@ -260,12 +260,6 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: aes-256-cfb
-  name: Japan_Tokyo_ss_1023
-  password: amazonskr05
-  port: 443
-  server: 18.179.37.17
-  type: ss
 - alterId: 0
   cipher: auto
   name: Unknown_vmess_111
@@ -395,7 +389,7 @@ proxies:
       Host: 24864168545164.oylfmxz.cn
     path: /
 - cipher: aes-128-gcm
-  name: France_None_ss_1115
+  name: Hong Kong_Hong Kong_ss_1115
   password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
   plugin: obfs
   plugin-opts:
@@ -415,7 +409,7 @@ proxies:
   server: gd2.bjnet2.com
   type: ss
 - cipher: aes-128-gcm
-  name: Hong Kong_Hong Kong_ss_1117
+  name: France_None_ss_1117
   password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
   plugin: obfs
   plugin-opts:
@@ -455,7 +449,7 @@ proxies:
   server: gd2.bjnet2.com
   type: ss
 - cipher: aes-128-gcm
-  name: Hong Kong_Hong Kong_ss_1121
+  name: France_None_ss_1121
   password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
   plugin: obfs
   plugin-opts:
@@ -474,6 +468,21 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- client-fingerprint: chrome
+  name: None_None_trojan_1123
+  network: ws
+  password: humanity
+  port: '443'
+  server: www.speedtest.org
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
+    path: /assignment
 proxy-groups:
 - name: 节点选择
   type: select
@@ -512,13 +521,12 @@ proxy-groups:
   - Taiwan_Chang-hua_vmess_1014
   - Hong Kong_Hong Kong_ss_1015
   - Hong Kong_Hong Kong_ss_1016
-  - Hong Kong_Hong Kong_ss_1017
-  - Hong Kong_Hong Kong_ss_1018
-  - Hong Kong_Hong Kong_ss_1019
+  - France_None_ss_1017
+  - France_None_ss_1018
+  - France_None_ss_1019
   - Hong Kong_Hong Kong_ss_1020
-  - Hong Kong_Hong Kong_ss_1021
+  - France_None_ss_1021
   - Hong Kong_Tuen Mun_vmess_1022
-  - Japan_Tokyo_ss_1023
   - Unknown_vmess_111
   - Unknown_vmess_112
   - Unknown_vmess_113
@@ -533,14 +541,15 @@ proxy-groups:
   - Hong Kong_Tuen Mun_vmess_1112
   - United States_None_trojan_1113
   - Taiwan_Chang-hua_vmess_1114
-  - France_None_ss_1115
+  - Hong Kong_Hong Kong_ss_1115
   - Hong Kong_Hong Kong_ss_1116
-  - Hong Kong_Hong Kong_ss_1117
+  - France_None_ss_1117
   - France_None_ss_1118
   - Hong Kong_Hong Kong_ss_1119
   - Hong Kong_Hong Kong_ss_1120
-  - Hong Kong_Hong Kong_ss_1121
+  - France_None_ss_1121
   - Hong Kong_Tuen Mun_vmess_1122
+  - None_None_trojan_1123
 - name: 手动选择
   type: select
   proxies:
@@ -560,13 +569,12 @@ proxy-groups:
   - Taiwan_Chang-hua_vmess_1014
   - Hong Kong_Hong Kong_ss_1015
   - Hong Kong_Hong Kong_ss_1016
-  - Hong Kong_Hong Kong_ss_1017
-  - Hong Kong_Hong Kong_ss_1018
-  - Hong Kong_Hong Kong_ss_1019
+  - France_None_ss_1017
+  - France_None_ss_1018
+  - France_None_ss_1019
   - Hong Kong_Hong Kong_ss_1020
-  - Hong Kong_Hong Kong_ss_1021
+  - France_None_ss_1021
   - Hong Kong_Tuen Mun_vmess_1022
-  - Japan_Tokyo_ss_1023
   - Unknown_vmess_111
   - Unknown_vmess_112
   - Unknown_vmess_113
@@ -581,14 +589,15 @@ proxy-groups:
   - Hong Kong_Tuen Mun_vmess_1112
   - United States_None_trojan_1113
   - Taiwan_Chang-hua_vmess_1114
-  - France_None_ss_1115
+  - Hong Kong_Hong Kong_ss_1115
   - Hong Kong_Hong Kong_ss_1116
-  - Hong Kong_Hong Kong_ss_1117
+  - France_None_ss_1117
   - France_None_ss_1118
   - Hong Kong_Hong Kong_ss_1119
   - Hong Kong_Hong Kong_ss_1120
-  - Hong Kong_Hong Kong_ss_1121
+  - France_None_ss_1121
   - Hong Kong_Tuen Mun_vmess_1122
+  - None_None_trojan_1123
 - name: 负载均衡
   type: load-balance
   proxies:
@@ -608,13 +617,12 @@ proxy-groups:
   - Taiwan_Chang-hua_vmess_1014
   - Hong Kong_Hong Kong_ss_1015
   - Hong Kong_Hong Kong_ss_1016
-  - Hong Kong_Hong Kong_ss_1017
-  - Hong Kong_Hong Kong_ss_1018
-  - Hong Kong_Hong Kong_ss_1019
+  - France_None_ss_1017
+  - France_None_ss_1018
+  - France_None_ss_1019
   - Hong Kong_Hong Kong_ss_1020
-  - Hong Kong_Hong Kong_ss_1021
+  - France_None_ss_1021
   - Hong Kong_Tuen Mun_vmess_1022
-  - Japan_Tokyo_ss_1023
   - Unknown_vmess_111
   - Unknown_vmess_112
   - Unknown_vmess_113
@@ -629,14 +637,15 @@ proxy-groups:
   - Hong Kong_Tuen Mun_vmess_1112
   - United States_None_trojan_1113
   - Taiwan_Chang-hua_vmess_1114
-  - France_None_ss_1115
+  - Hong Kong_Hong Kong_ss_1115
   - Hong Kong_Hong Kong_ss_1116
-  - Hong Kong_Hong Kong_ss_1117
+  - France_None_ss_1117
   - France_None_ss_1118
   - Hong Kong_Hong Kong_ss_1119
   - Hong Kong_Hong Kong_ss_1120
-  - Hong Kong_Hong Kong_ss_1121
+  - France_None_ss_1121
   - Hong Kong_Tuen Mun_vmess_1122
+  - None_None_trojan_1123
   url: http://www.gstatic.com/generate_204
   interval: 300
   strategy: round-robin
